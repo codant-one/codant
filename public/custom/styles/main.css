@@ -95,7 +95,7 @@ main {
     justify-content: center;
     border: none;
     border-radius: 24px;
-    background-color: var(--primary)!important;;
+    background-color: var(--primary)!important;
     color: #FFF;
     font-family: Vogie;
     font-size: 20px;
@@ -118,7 +118,7 @@ main {
     align-items: center;
     border: none;
     border-radius: 40px;
-    background: var(--primary)!important;;
+    background: var(--primary)!important;
     color: #FFF;
     text-align: center;
     font-family: Vogie;
@@ -129,7 +129,7 @@ main {
 }
 
 .sections span {
-    color:var(--primary)!important;;
+    color:var(--primary)!important;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -219,7 +219,7 @@ main {
 
 .row-form {
     border-radius: 64px;
-    background-color: var(--primary)!important;;
+    background-color: var(--primary)!important;
     padding: 84px 169px;
 }
 
@@ -260,10 +260,10 @@ main {
     margin-top: 32px;
     padding: 16px 40px;
     border-radius: 24px;
-    background-color: var(--secondary)!important;;
+    background-color: var(--secondary)!important;
     width: 100%;
     border: none;
-    color: var(--tertiary)!important;;
+    color: var(--tertiary)!important;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -273,7 +273,7 @@ main {
 .button-video {
     padding: 24px 40px;
     border-radius: 88px;
-    background: var(--primary)!important;;
+    background: var(--primary)!important;
     color: #FFF;
     font-size: 24px;
     font-style: normal;
@@ -446,7 +446,7 @@ main {
     }
 
     .button-video {
-        padding: 24px 40px;
+        padding: 24px 10px;
         font-size: 20px;
         margin-top: -25%;
         left: 8%;

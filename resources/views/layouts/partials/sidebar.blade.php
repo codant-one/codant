@@ -8,7 +8,7 @@
 		<div class="hover-scroll-overlay-y my-2 my-lg-5 pe-lg-n1" id="kt_aside_menu_wrapper" data-kt-scroll="true" data-kt-scroll-height="auto" data-kt-scroll-dependencies="#kt_aside_logo, #kt_aside_footer" data-kt-scroll-wrappers="#kt_aside, #kt_aside_menu" data-kt-scroll-offset="5px">
 			<div class="menu menu-column menu-title-gray-700 menu-state-title-info menu-state-icon-info menu-state-bullet-info menu-arrow-gray-500 fw-bold" id="#kt_aside_menu" data-kt-menu="true">
 				<div class="menu-item py-2">
-					<a class="menu-link menu-center" href="#" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+					<a class="menu-link menu-center" href="#about_us" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
 						<span class="svg-icon svg-icon-1 svg-icon-info">
 							<svg xmlns="http://www.w3.org/2000/svg" width="35.636" height="32.158" viewBox="0 0 35.636 32.158">
 								<path id="Color_Overlay" data-name="Color Overlay" d="M21.791,31.623l-5.042-5.176a1.855,1.855,0,0,1,0-2.579l0,0a1.743,1.743,0,0,1,2.51,0l3.778,3.877,8.837-9.054,0,0a1.743,1.743,0,0,1,2.509,0,1.856,1.856,0,0,1,0,2.579L24.3,31.623a1.744,1.744,0,0,1-2.512,0ZM3.564,29.264A3.6,3.6,0,0,1,0,25.606L.018,3.658A3.584,3.584,0,0,1,3.564,0H32.072a3.622,3.622,0,0,1,3.564,3.658V14.632H3.564V25.606h7.127a1.829,1.829,0,0,1,0,3.658Zm0-21.948H32.072V3.658H3.564Z" fill="#04646f"/>
@@ -20,7 +20,7 @@
 					</a>
 				</div>
 				<div class="menu-item py-2">
-					<a class="menu-link menu-center" href="#" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+					<a class="menu-link menu-center" href="#believe" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
 						<span class="svg-icon svg-icon-1 svg-icon-info ">
 							<svg xmlns="http://www.w3.org/2000/svg" width="28.345" height="28" viewBox="0 0 28.345 28">
 								<g id="Objeto_inteligente_vectorial" data-name="Objeto inteligente vectorial" transform="translate(-0.135 -0.442)">
@@ -37,7 +37,7 @@
 					</a>
 				</div>
 				<div class="menu-item py-2">
-					<a class="menu-link menu-center" href="#" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+					<a class="menu-link menu-center" href="#do" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
 						<span class="svg-icon svg-icon-1 svg-icon-info">
 							<svg xmlns="http://www.w3.org/2000/svg" width="31.292" height="35.347" viewBox="0 0 31.292 35.347">
 								<g id="Objeto_inteligente_vectorial" data-name="Objeto inteligente vectorial" transform="translate(0)">
@@ -54,7 +54,7 @@
 					</a>
 				</div>
 				<div class="menu-item py-2">
-					<a class="menu-link menu-center" href="#" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+					<a class="menu-link menu-center" href="#contact" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
 						<span class="svg-icon svg-icon-1 svg-icon-info">
 							<svg xmlns="http://www.w3.org/2000/svg" width="35.348" height="35.347" viewBox="0 0 35.348 35.347">
 								<g id="Objeto_inteligente_vectorial" data-name="Objeto inteligente vectorial" transform="translate(0 0)">
