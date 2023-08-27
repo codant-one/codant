@@ -55,36 +55,40 @@
         </div>
     </div>
 
-    <div class="col-6 d-flex flex-column services-mobile">
-        <img src="{{asset('/img/apps/icono-ui-ux.svg')}}" alt="ux-ui">
-        <span class="text">Diseño UI/UX</span>
-    </div>
-    <div class="col-6 d-flex flex-column services-mobile">
-        <img src="{{asset('/img/apps/api.svg')}}" alt="ux-ui">
-        <span class="text">Desarrollo de APIS</span>
-    </div>
-    <div class="col-6 d-flex flex-column services-mobile">
-        <img src="{{asset('/img/apps/development.svg')}}" alt="developer">
-        <span class="text">Desarrollo web</span>
-    </div>
-    <div class="col-6 d-flex flex-column services-mobile">
-        <img src="{{asset('/img/apps/backoffice.svg')}}" alt="developer">
-        <span class="text">Backoffice</span>
-    </div>
-    <div class="col-6 d-flex flex-column services-mobile">
-        <img src="{{asset('/img/apps/app.svg')}}" alt="aplications">
-        <span class="text">Aplicaciones moviles</span>
-    </div>
-    <div class="col-6 d-flex flex-column services-mobile">
-        <img src="{{asset('/img/apps/optimization.svg')}}" alt="aplications">
-        <span class="text">Optimización de sitios webs</span>
-    </div>
-    <div class="col-6 d-flex flex-column services-mobile">
-        <img src="{{asset('/img/apps/digital.svg')}}" alt="digital">
-        <span class="text">Productos digitales</span>
-    </div>
-    <div class="col-6 d-flex flex-column services-mobile">
-        <img src="{{asset('/img/apps/consultancy.svg')}}" alt="digital">
-        <span class="text">Consultoría</span>
+    <div class="services-mobile">
+        <div class="row g-0">
+            <div class="col-6 d-flex flex-column mb-10">
+                <img src="{{asset('/img/apps/icono-ui-ux.svg')}}" alt="ux-ui">
+                <span class="text">Diseño UI/UX</span>
+            </div>
+            <div class="col-6 d-flex flex-column mb-10">
+                <img src="{{asset('/img/apps/api.svg')}}" alt="ux-ui">
+                <span class="text">Desarrollo de APIS</span>
+            </div>
+            <div class="col-6 d-flex flex-column mb-10">
+                <img src="{{asset('/img/apps/development.svg')}}" alt="developer">
+                <span class="text">Desarrollo web</span>
+            </div>
+            <div class="col-6 d-flex flex-column mb-10">
+                <img src="{{asset('/img/apps/backoffice.svg')}}" alt="developer">
+                <span class="text">Backoffice</span>
+            </div>
+            <div class="col-6 d-flex flex-column mb-10">
+                <img src="{{asset('/img/apps/app.svg')}}" alt="aplications">
+                <span class="text">Aplicaciones moviles</span>
+            </div>
+            <div class="col-6 d-flex flex-column mb-10">
+                <img src="{{asset('/img/apps/optimization.svg')}}" alt="aplications">
+                <span class="text">Optimización de sitios webs</span>
+            </div>
+            <div class="col-6 d-flex flex-column mb-10">
+                <img src="{{asset('/img/apps/digital.svg')}}" alt="digital">
+                <span class="text">Productos digitales</span>
+            </div>
+            <div class="col-6 d-flex flex-column mb-10">
+                <img src="{{asset('/img/apps/consultancy.svg')}}" alt="digital">
+                <span class="text">Consultoría</span>
+            </div>
+        </div>
     </div>
 </div>

@@ -312,7 +312,7 @@ main {
 }
 
 .services-mobile {
-   display: none !important;
+   display: none;
 }
 
 #animacion-1{
