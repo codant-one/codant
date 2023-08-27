@@ -7,19 +7,20 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class solicitud extends Mailable
+class Contact extends Mailable
 {
     use Queueable, SerializesModels;
-    public $subject = 'Nueva solicitud de servicio Codant';
-    public $datosTexto;
+    public $subject = 'Nueva solicitud de servicio CODANT';
+    public $data;
+
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct($datosTexto)
+    public function __construct($data)
     {
-        $this->datosTexto = $datosTexto; 
+        $this->data = $data; 
     }
 
     /**
@@ -29,7 +30,7 @@ class solicitud extends Mailable
      */
     public function build()
     {
-        $this->view('mail.solicitudes')
-            ->with('datosTexto', $this->datosTexto);
+        $this->view('mail.contact')
+            ->with('data', $this->data);
     }
 }
