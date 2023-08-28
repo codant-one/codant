@@ -51,7 +51,7 @@ class MainController extends Controller {
         
         try {
 
-            Mail::to(env('MAIL_FROM_ADDRESS'))->send(new Contact($data));
+            Mail::to(explode(',', env('MAIL_TO_ADDRESS')))->send(new Contact($data));
 
             if(Mail::failures() != 0) {
                 return redirect()->route('index')->with('jsAlert', "Tu solicitud fue registrada de manera exitosa, nos comunicaremos contigo lo más pronto posible");
