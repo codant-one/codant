@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
 use App\Models\User;
+use App\Models\Service;
+use App\Models\Request as RequestUser;
 
 use App\Mail\Contact;
 
@@ -15,22 +17,36 @@ class MainController extends Controller {
     
     public function index()
     {
-        return view("index");
+        $services = Service::all();
+
+        return view("index", compact('services'));
     }
 
     public function store(Request $request)
     {
-        $user = new User();
-        $user->name = $request->name;
-        $user->email = $request->email;
-        $user->service = $request->service;
-        $user->save();
+        $user = User::where('email', $request->email)->first();
+
+        if(!$user) {
+            $user = new User();
+            $user->name = $request->name;
+            $user->email = $request->email;
+            $user->save();
+        }
+
+        $description = $request->description;
+        $service = Service::find($request->service_id);
+
+        $request = new RequestUser();
+        $request->user_id = $user->id;
+        $request->service_id = $service->id;
+        $request->description = $description;
+        $request->save();
 
         $data = [
-            'name' => $request->name,
-            'email' => $request->email,
-            'service' => $request->service,
-            'description'=> $request->description,
+            'name' => $user->name,
+            'email' => $user->email,
+            'service' => $service->label,
+            'description'=> $description,
         ];
         
         try {
@@ -46,7 +62,7 @@ class MainController extends Controller {
                 view("index", compact('message'));
             }
         } catch (\Exception $e) {
-            return redirect()->route('index')->with('jsAlert', 'Tu solicitud se registro con exito! sin embargo hay un problema con el correo de confirmación'.$e);
+            return redirect()->route('index')->with('jsAlert', 'Tu solicitud se registro con exito! sin embargo hay un problema con el correo de confirmación'. $e);
         }
     }
 

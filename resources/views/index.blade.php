@@ -14,6 +14,10 @@
 @section('scripts')
 <script>
     
+    $(document).ready(function () {
+        $('.servicesSelect').select2();
+    });
+
     var services = document.querySelector('.services');
     var servicesTwo = document.querySelector('.servicesTwo');
     var scrollPosition = 0;

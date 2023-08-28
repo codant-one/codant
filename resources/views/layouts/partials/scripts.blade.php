@@ -17,6 +17,13 @@
 <script src="{{ asset('/plugins/global/plugins.bundle.js') }}"></script>
 <script src="{{ asset('/js/scripts.bundle.js') }}"></script>
 
+{{-- Dual Listbox --}}
+<script src="{{ asset('/js/vendor/jquery.bootstrap-duallistbox.min.js?v=') . env('APP_VERSION') }}"></script>
+{{-- Custom Scripts --}}
+<script src="{{ asset('custom/js/main.js') }}"></script>
+<script src="{{ asset('custom/js/fakit.js') }}"></script>
+
+
 <!--ALERTS-->
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 

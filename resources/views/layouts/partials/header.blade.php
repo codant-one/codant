@@ -23,6 +23,9 @@
     <link rel="stylesheet" href="{{ asset('/css/style.bundle.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ asset('/custom/styles/main.css') }}">
 
+    {{-- GLOBAL --}}
+    <link rel="stylesheet" href="{{ asset('/plugins/global/plugins.bundle.css') }}" type="text/css">
+    
     <style type="text/css">
         :root {
             --primary: {{ env('DOMAIN_PRIMARY_COLOR') }};

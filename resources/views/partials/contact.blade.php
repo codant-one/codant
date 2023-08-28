@@ -14,8 +14,24 @@
                     <input type="email" class="form-control input-form" name="email" required>
                 </div>
                 <div class="col-md-4 mb-3 mb-md-0">
+                    @php $locale = session()->get('locale'); @endphp
                     <label>Que servicio deseas</label>
-                    <input type="text" class="form-control input-form" name="service" required>
+                    <select class="form-select input-form servicesSelect"
+                        name="service_id"
+                        id="service_id"
+                        data-control="select2"
+                        required>
+                        <option value="0">Seleccione</option>
+                        @foreach ($services as $key => $service)
+                            <option value="{{ $service->id }}">
+                                @if($locale === 'es')
+                                    {{ $service->es }}
+                                @else
+                                    {{ $service->en }}
+                                @endif
+                            </option>
+                        @endforeach
+                    </select>
                 </div>
             </div>
             <div class="form-group mb-3 mb-md-0 mt-md-8">
@@ -24,7 +40,7 @@
             </div>
 
             @csrf
-            <button type="submit" class="button-form">Enviar</button>
+            <button type="submit" class="btn btn-secondary button-form">Enviar</button>
         </form>
     </div>
 </div>

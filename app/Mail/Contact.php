@@ -31,6 +31,6 @@ class Contact extends Mailable
     public function build()
     {
         $this->view('mail.contact')
-            ->with('data', $this->data);
+             ->with('data', $this->data);
     }
 }

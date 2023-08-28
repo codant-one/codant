@@ -8,7 +8,7 @@
 	data-kt-drawer-direction="end" 
 	data-kt-drawer-toggle="#kt_aside_mobile_toggle">
 	<div class="aside-logo py-8" id="kt_aside_logo">
-		<a href="#">
+		<a href="{{ route('index') }}">
 			<img alt="Logo"  src="{{ asset(env('DOMAIN_LOGO_SVG')) }}" class="logo" style="height: 80px; margin-top: 10px;" />
 		</a>
 	</div>
@@ -96,13 +96,13 @@
 				@php $locale = session()->get('locale'); @endphp
 				@switch($locale)
 					@case('es')
-						<a class="button-language" href="{{ route('translate.index',['locale' => 'en']) }}">ES</a>
+						<a class="btn btn-primary button-language" href="{{ route('translate.index',['locale' => 'en']) }}">EN</a>
 					@break
 					@case('en')
-						<a class="button-language" href="{{ route('translate.index',['locale' => 'es']) }}">EN</a>
+						<a class="btn btn-primary button-language" href="{{ route('translate.index',['locale' => 'es']) }}">ES</a>
 					@break
 					@default
-						<a class="button-language" href="{{ route('translate.index',['locale' => 'en']) }}">ES</a>
+						<a class="btn btn-primary button-language" href="{{ route('translate.index',['locale' => 'en']) }}">EN</a>
 					@break
 				@endswitch
                 </div>
