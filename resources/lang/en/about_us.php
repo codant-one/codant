@@ -13,4 +13,7 @@ return [
     |
     */
 
+    'about-main'=> 'is a group of professionals with cologne in the world, where engineering and creativity converge to give life to brands that want to nest a digital universe. We are united by the passion to create a different, unique environment that represents you.',
+    'about-title'=> 'ABOUT US',
+
 ];

@@ -13,12 +13,6 @@ return [
     |
     */
 
-    'write'=>'Get in touch with us',
-    'let_us'=>'Let us know about your project and how we can be of help.',
-    'name'=>'Name',
-    'email'=>'E-mail',
-    'service'=>'What services do you want?',
-    'tell_us'=>'Tell us about the project you have in mind.',
-    'button-text'=>'Submit', 
+    'text-button'=> 'Lets kickstart a project!',
 
 ];

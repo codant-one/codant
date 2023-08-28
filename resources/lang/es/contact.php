@@ -12,5 +12,12 @@ return [
     | these language lines according to your application's requirements.
     |
     */
+    'write'=>'¿Cómo podemos ayudarte?',
+    'let_us'=>'Estamos aquí para conocer tu proyecto y ofrecer nuestra ayuda.',
+    'name'=>'Nombre',
+    'email'=>'Correo electrónico',
+    'service'=>'¿Qué servicio deseas?',
+    'tell_us'=>'Cuéntanos que proyecto tienes en mente',
+    'button-text'=>'Enviar', 
 
 ];

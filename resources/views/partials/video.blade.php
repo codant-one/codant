@@ -11,6 +11,6 @@
     
 <div class="row g-0">
     <div class="col-12 text-center">
-        <button class="btn btn-primary button-video" onclick="window.location.href='#contact'">Quiero comenzar un proyecto</button>
+        <button class="btn btn-primary button-video" onclick="window.location.href='#contact'">@lang('video.text-button')</button>
     </div>
 </div>

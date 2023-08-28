@@ -13,4 +13,14 @@ return [
     |
     */
 
+    'title'=> '¿QUÉ HACEMOS?',
+    'design'=> 'Diseño UI/UX',
+    'web'=> 'Desarrollo web',
+    'app'=> 'Aplicaciones moviles',
+    'digital'=> 'Productos digitales',
+    'apis'=>'Desarrollo de Apis',
+    'backoffice'=>'Backoffice',
+    'optimization'=>'Optimización de sitios web',
+    'consultancy'=>'Consultoría',
+
 ];
