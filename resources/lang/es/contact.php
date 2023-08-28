@@ -18,6 +18,7 @@ return [
     'email'=>'Correo electrónico',
     'service'=>'¿Qué servicio deseas?',
     'tell_us'=>'Cuéntanos que proyecto tienes en mente',
+    'select'=> 'Seleccione una opción',
     'button-text'=>'Enviar', 
 
 ];

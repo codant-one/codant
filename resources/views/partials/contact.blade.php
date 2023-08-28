@@ -21,7 +21,7 @@
                         id="service_id"
                         data-control="select2"
                         required>
-                        <option value="0">Seleccione</option>
+                        <option value="0">@lang('contact.select')</option>
                         @foreach ($services as $key => $service)
                             <option value="{{ $service->id }}">
                                 @if($locale === 'es')

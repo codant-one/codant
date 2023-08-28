@@ -19,6 +19,7 @@ return [
     'email'=>'E-mail',
     'service'=>'What services do you want?',
     'tell_us'=>'Tell us about the project you have in mind.',
+    'select'=> 'Select an option',
     'button-text'=>'Submit', 
 
 ];
