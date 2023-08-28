@@ -38,9 +38,8 @@ body {
     z-index: 99;
 }
 
-#animacion-1{
+#animation {
     width: 100%;
-    border-bottom: 2px solid white;
     margin-top: -6%;
 }
 
@@ -110,14 +109,15 @@ main {
     z-index: 99;
 }
 
+.svg-icon.svg-icon-1 svg {
+    height: 56px !important;
+    width: 56px !important;
+}
+
 .button-language {
-    width: 85px;
-    height: 85px;
-    padding: 16px 24px;
-    justify-content: center;
-    align-items: center;
+    padding: 24px;
     border: none;
-    border-radius: 40px;
+    border-radius: 50%;
     background: var(--primary)!important;
     color: #FFF;
     text-align: center;
@@ -126,6 +126,11 @@ main {
     font-style: normal;
     font-weight: 700;
     line-height: 16px;
+    cursor: pointer;
+}
+
+a:hover {
+    color: white !important;
 }
 
 .sections span {
@@ -281,7 +286,7 @@ main {
     line-height: 16px;
     border: none;
     position: absolute;
-    margin-top: -7%;
+    margin-top: -6%;
     left: 37%;
     right: 37%;
 }
@@ -315,7 +320,7 @@ main {
    display: none;
 }
 
-#animacion-1{
+#animation{
     z-index: -1;
 }
 
@@ -437,11 +442,8 @@ main {
     }
 
     .button-language {
-        width: auto;
-        height: auto;
-        padding: 10px;
+        padding: 15px;
         border: none;
-        border-radius: 23px;
         font-size: 15px;
     }
 
@@ -466,7 +468,7 @@ main {
         line-height: 16px;
     }
 
-    #animacion-1 {
+    #animation {
         height: 550px;
         object-fit: cover;
         margin-top: -22%

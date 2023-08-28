@@ -1,7 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\MainController;
+use App\Http\Controllers\{
+    MainController,
+    LocalizationController
+};
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,3 +19,7 @@ use App\Http\Controllers\MainController;
 
 Route::get('/',  [MainController::class, 'index'])->name('index');
 Route::post('/register', [MainController::class, 'store'])->name('main.store');
+
+
+ /* TRANSLATE */
+ Route::get('lang/{locale}', [LocalizationController::class, 'index'])->name('translate.index');
