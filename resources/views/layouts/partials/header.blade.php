@@ -7,6 +7,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="base_url" content="{{ url('') }}">
     <meta name="description" content="Profesionales con colonia en el mundo, en busca de crear caminos digitales a través de desarrollo y diseño de software, en constante evolución">
+    <meta property="og:image" content="{{asset('/img/logos/codant.svg')}}">
     <title>{{ config('app.name') }}</title>
 
     <link rel="icon" href="{{asset('/img/logos/codant.svg')}}" type="image/x-icon">
