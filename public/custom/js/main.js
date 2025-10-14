@@ -34,11 +34,35 @@ $(document).ready(function () {
     });
 
     $(document).delegate('.delete-item', 'click', function () {
-        let confirmation = confirm( lang.js_common.element_delete );
+        let form = $(this).closest('form');
 
-        if (!confirmation) return;
-
-        $(this).closest('form').submit();
+        Swal.fire({
+            html: `<div class="d-flex flex-column">
+                        <span class="swal2-subtitle-success">¿Está seguro que desea eliminar este elemento?</span>
+                            <span class="swal2-html-container d-flex mt-0 align-center">
+                                <img src="/svg/info-warning.svg" alt="warning">
+                                <span class="ms-2">El elemento ya no será parte de nuestro sistema.</span>
+                            </span>
+                        </div>
+                    `,
+            confirmButtonText: "¡Entendido!",
+            focusConfirm: false,
+            focusCancel: false,
+            showCloseButton: true,
+            imageUrl: "/img/icon_warning.png",
+            imageAlt: "Maintenance",
+            closeButtonHtml: `<img src="/svg/close-circle-gray.svg" alt="close" style="transform: scale(0.7);">`,
+            customClass: { 
+                image: 'mt-10 mb-0 mx-auto w-25',
+                confirmButton: "btn btn-standar",
+                closeButton: 'custom-swal-close-button',
+                htmlContainer: 'swal2-html-container', 
+            },
+        }).then(function (result) {
+            if (result.isConfirmed) {
+                form.submit();
+            }   
+        });
     });
 
     $(document).delegate('.approve-item', 'click', function () {

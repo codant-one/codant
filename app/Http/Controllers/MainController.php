@@ -24,29 +24,21 @@ class MainController extends Controller {
 
     public function store(Request $request)
     {
-        $user = User::where('email', $request->email)->first();
+        //dd($request->all());
+        $requestUser = new RequestUser();
+        $requestUser->name = $request->name;
+        $requestUser->email = $request->email;
+        $requestUser->service_id = $request->service_id;
+        $requestUser->description = $request->description;
+        $requestUser->save();
 
-        if(!$user) {
-            $user = new User();
-            $user->name = $request->name;
-            $user->email = $request->email;
-            $user->save();
-        }
-
-        $description = $request->description;
         $service = Service::find($request->service_id);
 
-        $request = new RequestUser();
-        $request->user_id = $user->id;
-        $request->service_id = $service->id;
-        $request->description = $description;
-        $request->save();
-
         $data = [
-            'name' => $user->name,
-            'email' => $user->email,
+            'name' => $request->name,
+            'email' => $request->email,
             'service' => $service->label,
-            'description'=> $description,
+            'description'=> $request->description,
         ];
         
         try {

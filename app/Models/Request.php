@@ -16,10 +16,6 @@ class Request extends Model
     protected $guarded = [];
     
     /**** Relationship ****/
-    public function user(){
-        return $this->belongTo(User::class, 'user_id', 'id');
-    }
-
     public function service(){
         return $this->belongTo(Request::class, 'service_id', 'id');
     }

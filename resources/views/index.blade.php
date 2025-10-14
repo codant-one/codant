@@ -1,7 +1,6 @@
-@extends('layouts.master')
+@extends('layouts.landing')
 
 @section('content')
-
 
     @include('partials.video')
     @include('partials.about_us')

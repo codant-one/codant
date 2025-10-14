@@ -29,7 +29,7 @@
         msgCancelled: 'Cancelado',
         msgPlaceholder: 'Seleccionar {files}...',
         msgZoomModalHeading: 'Vista previa detallada',
-        msgFileRequired: 'Debes seleccionar un archivo para subir.',
+        msgFileRequired: 'Debe seleccionar un archivo para subir.',
         msgSizeTooSmall: 'El archivo "{name}" (<b>{size} KB</b>) es demasiado pequeño y debe ser mayor de <b>{minSize} KB</b>.',
         msgSizeTooLarge: 'El archivo "{name}" (<b>{size} KB</b>) excede el tamaño máximo permitido de <b>{maxSize} KB</b>.',
         msgFilesTooLess: 'Debe seleccionar al menos <b>{n}</b> {files} a cargar.',

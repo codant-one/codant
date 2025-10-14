@@ -1,58 +1,59 @@
-<div class="row g-0 menu-desktop px-24 pt-6">
-    <div class="col-md-11 d-flex flex-stack align-items-center header">
-        <a href="{{ route('index') }}">
-            <img src="{{ asset(env('DOMAIN_LOGO_SVG')) }}" alt="Codant-logo">
-        </a>
-        <nav id ="main-menu"class="navbar navbar-expand-lg navbar-light w-100">
-            <div class="collapse navbar-collapse justify-content-center w-100" id="navbarNavDropdown">
-                <ul class="navbar-nav w-75 d-flex flex-stack px-24">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#about_us"> @lang('navbar.about_us') </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#believe"> @lang('navbar.believe') </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#do"> @lang('navbar.do') </a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <button class="btn btn-primary button-contact" onclick="window.location.href='#contact'">@lang('navbar.contact')</button>
-    </div>
-    <div class="col-md-1 button-lang">
-        @php $locale = session()->get('locale'); @endphp
-        @switch($locale)
-            @case('es')
-                <a class="btn btn-primary button-language" href="{{ route('translate.index',['locale' => 'en']) }}">EN</a>
-            @break
-            @case('en')
-                <a class="btn btn-primary button-language" href="{{ route('translate.index',['locale' => 'es']) }}">ES</a>
-            @break
-            @default
-                <a class="btn btn-primary button-language" href="{{ route('translate.index',['locale' => 'en']) }}">EN</a>
-            @break
-        @endswitch
-    </div>
-</div>
-
-<div class="container menu-mobile">
-    <div class="row g-0">
-        <div class="col-12 superimpose">
-            <div class="row g-0 header-mobile">
-                <div class="col-11 text-left m-auto">
-                    <a href="{{ route('index') }}">
-                        <img width="68px" src="{{ asset(env('DOMAIN_LOGO_SVG')) }}" alt="Codant-logo">
-                    </a>
-                </div>
-                <div class="col-1 m-auto">
-                    <div class="btn btn-icon btn-active-light-info w-100" id="kt_aside_mobile_toggle">
-                        <span class="d-flex align-center">
-                            <i class="fas fa-bars fs-2qx"></i>
-                        </span>
+<div id="kt_header" class="header align-items-stretch">
+    <div class="container-fluid d-flex align-items-stretch justify-content-between">
+        <div class="d-flex align-items-center d-lg-none ms-n3 me-1" title="Show aside menu">
+			<div class="btn btn-icon btn-active-light-primary w-30px h-30px w-md-40px h-md-40px" id="kt_aside_mobile_toggle">
+                <span>
+                    <i class="fas fa-bars"></i>
+                </span>
+			</div>
+		</div>
+        <div class="d-flex align-items-center flex-grow-1 flex-lg-grow-0">
+			<a href="{{ route('admin.dashboard.index') }}" class="d-lg-none">
+		        <img alt="Logo" src="{{ asset(env('DOMAIN_LOGO_SVG')) }}" style="width: 50px" />
+			</a>
+		</div>
+		<div class="d-flex align-items-stretch justify-content-between flex-lg-grow-1">
+            @include('shared.breadcrumbs',['title' => $title, 'breadcrumbs' => $breadcrumbs] )
+            <div class="d-flex align-items-stretch flex-shrink-0">
+                <div class="d-flex align-items-stretch flex-shrink-0">                    
+                    <div class="d-flex align-items-center ms-1 ms-lg-3">
+                        <div class="cursor-pointer symbol symbol-circle symbol-30px symbol-md-40px" data-kt-menu-trigger="click" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end" data-kt-menu-flip="bottom">
+                            @if(is_null(auth()->user()->avatar))
+                                <img alt="image" src="{{ asset('/img/placeholders/user.png') }}"/>
+                            @else
+                                <img alt="image" src="{{ asset('storage/'.auth()->user()->avatar) }}"/>
+                            @endif
+                        </div>
+                        <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg menu-state-primary fw-bold py-4 fs-6 w-auto" data-kt-menu="true">
+                            <div class="menu-item px-3">
+                                <div class="menu-content d-flex align-items-center px-3">
+                                    <div class="symbol symbol-50px symbol-circle me-5">
+                                        @if(is_null(auth()->user()->avatar))
+                                            <img alt="image" src="{{ asset('/img/placeholders/user.png') }}"/>
+                                        @else
+                                            <img alt="image" src="{{ asset('storage/'.auth()->user()->avatar) }}"/>
+                                        @endif
+                                    </div>
+                                    <div class="d-flex flex-column">
+                                        <div class="fw-bolder d-flex align-items-center fs-5">
+                                            {{ auth()->user()->firstname }}  {{ auth()->user()->lastname }}
+                                        </div>
+                                        <span class="fw-bold text-muted fs-7" style="word-break: break-all;"> {{ auth()->user()->email }}</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="separator my-2"></div>
+                            <div class="menu-item px-5">
+								<a href="{{ route('profile') }}" class="menu-link px-5">Mi perfil</a>
+							</div>
+                            <div class="separator my-2"></div>
+                            <div class="menu-item px-5">
+                                <a href="{{ route('auth.logout') }}" class="menu-link px-5">Cerrar sesión</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+	    </div>
+	</div>
 </div>

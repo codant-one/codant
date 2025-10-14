@@ -1,13 +1,6 @@
-<div class="row g-0 footer p-10 py-md-10 px-md-15 align-items-center">
-    <div class="col-md-4 d-none d-md-block mb-3" class="img-footer">
-        <img src="{{ asset(env('DOMAIN_LOGO_REVERSE_SVG')) }}" alt="Codant-logo">
-    </div>
-    <div class="col-md-4 d-block d-md-none text-center mb-3" class="img-footer">
-        <img width="78px" src="{{ asset(env('DOMAIN_LOGO_REVERSE_SVG')) }}" alt="Codant-logo">
-    </div>
-    <div class="col-md-8">
-        <p class="text-footer">
-            © {{ date('Y') }} Codant All Rights Reserved.
-        </p>
-    </div>
+<div class="container-fluid d-flex flex-column flex-md-row align-items-center justify-content-between">
+	<div class="text-dark order-2 order-md-1 fs-6">
+	    <span class="text-muted fw-bold me-1">{{ date('Y') }}©</span>
+		<a href="{{ env('APP_URL') }}" target="_blank" class="text-gray-800 text-hover-primary">{{ env('APP_NAME') }}</a>
+	</div>
 </div>
