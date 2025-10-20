@@ -95,16 +95,7 @@
         '/admin/roles': @json(auth()->user()->can('rol_create')),
         '/admin/users': @json(auth()->user()->can('user_create')),
         '/admin/permissions': @json(auth()->user()->can('permission_create')),
-        '/admin/provinces': @json(auth()->user()->can('province_create')),
-        '/admin/cities': @json(auth()->user()->can('city_create')),
-        '/admin/postalcode': @json(auth()->user()->can('postalcode_create')),
-        '/admin/tenants': @json(auth()->user()->can('tenant_create')),
-        '/admin/categories': @json(auth()->user()->can('category_create')),
-        '/admin/materials': @json(auth()->user()->can('material_create')),
-        '/admin/banks': @json(auth()->user()->can('bank_create')),
-        '/admin/account_types': @json(auth()->user()->can('account_type_create')),
-        '/admin/genders': @json(auth()->user()->can('gender_create')),
-        '/admin/ratings': @json(auth()->user()->can('rating_create')),
+        '/admin/clients': @json(auth()->user()->can('client_create')),
       };
 
       const hasPermission = routePermissions[currentPath];

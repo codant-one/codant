@@ -34,6 +34,11 @@ class PermissionSeeder extends Seeder
             ['name' => 'permission_edit', 'description' => 'Editar Permisos', 'custom' => 0],
             ['name' => 'permission_delete', 'description' => 'Eliminar Permisos', 'custom' => 0],
 
+            ['name' => 'client_view', 'description' => 'Ver Clientes', 'custom' => 0],
+            ['name' => 'client_create', 'description' => 'Crear Clientes', 'custom' => 0],
+            ['name' => 'client_edit', 'description' => 'Editar Clientes', 'custom' => 0],
+            ['name' => 'client_delete', 'description' => 'Eliminar Clientes', 'custom' => 0],
+
         ]; 
 
         $permissions = [];
@@ -73,11 +78,17 @@ class PermissionSeeder extends Seeder
             'permission_view'           
         ];
 
+        $clients = [
+            'client_view',
+            'client_create', 
+            'client_edit'
+        ];
+
 
         $admin = Role::where('name', 'Administrador')->first();
 
         $admin->givePermissionTo(
-            array_merge($users, $roles, $permissions_)
+            array_merge($users, $roles, $permissions_, $clients)
         );
 
     }

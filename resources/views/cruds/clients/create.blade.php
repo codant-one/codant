@@ -1,0 +1,151 @@
+@extends('layouts.master', [
+    'title' => 'Clientes',
+    'breadcrumbs' => [
+        route('admin.dashboard.index') => 'Inicio',
+        route('clients.index') => 'Clientes',
+        route('clients.create') => 'Agregar Nuevo'
+    ]
+])
+
+@section('content')
+<div class="container-fluid">
+    <div class="mx-5 mx-xl-15">
+        {!! Form::open(['route' => ['clients.store'], 'method' => 'POST', 'files' => true, 'id' => 'client-form']) !!}
+        <div class="card">
+            <div class="card-header">
+				<div class="card-title fs-3 fw-bolder">Agregar Nuevo Cliente</div>
+            </div>
+            <div class="card-body px-10 py-7">  
+                <div class="row mb-5">
+                    <div class="fv-row col-md-6">
+                        <label class="required fw-bold fs-6 mb-2">Nombre completo</label>
+                        {!! Form::text('fullname', old('fullname'),
+                            ['required',
+                            'id' => 'fullname',
+                            'class' => 'form-control mb-3 mb-lg-0',
+                            'placeholder' => 'Nombre completo del cliente'])
+                        !!}
+                    </div>
+                    <div class="fv-row col-md-6">
+                        <label class="required fw-bold fs-6 mb-2">Email</label>
+                        {!! Form::email('email', old('email'),
+                            ['required',
+                            'id' => 'email',
+                            'class' => 'form-control mb-3 mb-lg-0',
+                            'placeholder' => 'Email del cliente'])
+                        !!}
+                    </div>                    
+                </div>
+
+                <div class="row mb-5">
+                    <div class="fv-row col-md-6">
+                        <label class="required fw-bold fs-6 mb-2">País</label>
+                        {!! Form::select('country_id', $countries, old('country_id'), [
+                            'required',
+                            'id' => 'country_id',
+                            'class' => 'form-control mb-3 mb-lg-0',
+                            'placeholder' => 'Seleccione un país'
+                        ]) !!}
+                    </div>
+                    <div class="fv-row col-md-6">
+                        <label class="required fw-bold fs-6 mb-2">Teléfono</label>
+                        {!! Form::text('phone', old('phone'),
+                            ['required',
+                            'id' => 'phone',
+                            'class' => 'form-control mb-3 mb-lg-0',
+                            'placeholder' => 'Número de teléfono'])
+                        !!}
+                        <div class="text-muted fs-7 mt-1" id="phone-format">Seleccione un país primero</div>
+                    </div>
+                </div>
+                
+                <div class="row mb-5">
+                    <div class="fv-row col-md-6">
+                        <label class="required fw-bold fs-6 mb-2">Empresa</label>
+                        {!! Form::text('company', old('company'),
+                            ['required',
+                            'id' => 'company',
+                            'class' => 'form-control mb-3 mb-lg-0',
+                            'placeholder' => 'Nombre de la empresa'])
+                        !!}
+                    </div>
+                    <div class="fv-row col-md-6">
+                        <label class="fw-bold fs-6 mb-2">URL</label>
+                        {!! Form::text('url', old('url'),
+                            ['id' => 'url',
+                            'class' => 'form-control mb-3 mb-lg-0',
+                            'placeholder' => 'https://ejemplo.com'])
+                        !!}
+                    </div>
+                </div>
+
+                <div class="row mb-5">
+                    <div class="fv-row col-md-6">
+                        <label class="required fw-bold fs-6 mb-2">Documento</label>
+                        {!! Form::text('document', old('document'),
+                            ['required',
+                            'id' => 'document',
+                            'class' => 'form-control mb-3 mb-lg-0',
+                            'placeholder' => 'Número de documento'])
+                        !!}
+                    </div>
+                    <div class="fv-row col-md-6">
+                        <label class="required fw-bold fs-6 mb-2">Año</label>
+                        {!! Form::number('year', old('year'),
+                            ['required',
+                            'id' => 'year',
+                            'class' => 'form-control mb-3 mb-lg-0',
+                            'placeholder' => 'Año',
+                            'min' => '1900',
+                            'max' => date('Y')])
+                        !!}
+                    </div>
+                </div>
+
+                <div class="row mb-5">
+                    <div class="fv-row col-md-6">
+                        <label class="fw-bold fs-6 mb-2">Avatar</label>
+                        {!! Form::file('avatar', 
+                            ['id' => 'avatar',
+                            'class' => 'form-control mb-3 mb-lg-0',
+                            'accept' => 'image/*'])
+                        !!}
+                        <div class="text-muted fs-7 mt-1">Formatos: JPG, PNG, GIF. Tamaño máximo: 2MB</div>
+                    </div>
+                    <div class="fv-row col-md-6">
+                        <label class="fw-bold fs-6 mb-2">Logo de empresa</label>
+                        {!! Form::file('logo', 
+                            ['id' => 'logo',
+                            'class' => 'form-control mb-3 mb-lg-0',
+                            'accept' => 'image/*'])
+                        !!}
+                        <div class="text-muted fs-7 mt-1">Formatos: JPG, PNG, GIF. Tamaño máximo: 2MB</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer d-flex justify-content-center">
+                <a href="{{ route('clients.index') }}" class="btn btn-light me-3 w-300px">Cancelar</a>
+                <button type="submit" id="kt_modal_create_client_submit" class="btn btn-primary w-300px">
+                    <span class="indicator-label">Registrar Cliente</span>
+                    <span class="indicator-progress">
+                        <span class="spinner-border spinner-border-md align-middle ms-2"></span>
+                    </span>
+                </button>
+            </div>
+        </div>
+        {!! Form::close() !!}
+    </div>
+</div>
+@endsection
+
+@section('scripts')
+<script>
+    $(document).ready(function () {
+        $('#country_id').select2({
+            placeholder: 'Seleccione un país',
+            allowClear: true
+        });
+    });
+</script>
+
+@endsection

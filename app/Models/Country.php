@@ -88,4 +88,9 @@ class Country extends Model
         return '<div class="badge badge-light-' . $class . ' fs-8 fw-bolder">'. $this->state['name'] . '</div>';
     }
 
+    public function clients()
+    {
+        return $this->hasMany(Client::class);
+    }
+
 }
