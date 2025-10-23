@@ -12,30 +12,14 @@ route('clients.index') => 'Clientes',
     <div class="card">
         <div class="card-body border-0 pt-2 pb-7">
             <div class="pt-0 table-responsive w-100">
-                @can('client_create')
-                <a href="{{ route('clients.create') }}" class='btn btn-primary w-25 d-flex align-center mb-5 svg-buttons float-end'>
-                    <span class="mr-2">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M8 12H16" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M12 16V8" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    </span>
-                    Agregar Nuevo
-                </a>
-                @endcan
-                <table id="clients" class="table align-middle table-row-bordered fs-6" style="width:100%">
+                <table id="kt_datatable_example_1" class="table align-middle table-row-bordered fs-6" style="width:100%">
                     <thead class="text-start text-muted fw-bolder fs-7 text-uppercase gs-0">
                         <tr>
                             <th class="w-60px">ID</th>
-                            <th class="w-300px">AVATAR</th>
-                            <th class="w-300px">NOMBRE</th>
-                            <th class="w-300px">EMAIL</th>
-                            <th class="w-300px">TELÉFONO</th>
-                            <th class="w-300px">DOCUMENTO</th>
-                            <th class="w-300px">AÑO</th>
+                            <th class="w-400px">NOMBRE</th>
                             <th class="w-300px">EMPRESA</th>
-                            <th class="w-300px">LOGO</th>
+                            <th class="w-100px">TELÉFONO</th>
+                            <th class="w-100px">DOCUMENTO</th>
                             @canany(['client_edit', 'client_delete'])
                             <th class="text-center w-100px">ACCIONES</th>
                             @endcanany
@@ -44,29 +28,17 @@ route('clients.index') => 'Clientes',
                             <th class="px-0">
                                 <input type="number" min="1" class="form-control form-control-sm d-block" placeholder="ID">
                             </th>
-                            <th class="filters">
-                                <!-- Avatar no necesita filtro -->
-                            </th>
                             <th>
                                 <input type="text" class="form-control form-control-sm" placeholder="NOMBRE">
                             </th>
                             <th>
-                                <input type="email" class="form-control form-control-sm" placeholder="EMAIL"/>
+                                <input type="text" class="form-control form-control-sm" placeholder="EMPRESA"/>
                             </th>
                             <th>
                                 <input type="text" class="form-control form-control-sm" placeholder="TELÉFONO"/>
                             </th>
                             <th>
                                 <input type="text" class="form-control form-control-sm" placeholder="DOCUMENTO"/>
-                            </th>
-                            <th>
-                                <input type="number" class="form-control form-control-sm" placeholder="AÑO"/>
-                            </th>
-                            <th>
-                                <input type="text" class="form-control form-control-sm" placeholder="EMPRESA"/>
-                            </th>
-                            <th class="filters">
-                                <!-- Logo no necesita filtro -->
                             </th>
                             @canany(['client_edit', 'client_delete'])
                             <th class="text-center w-100px filters">
@@ -99,22 +71,16 @@ route('clients.index') => 'Clientes',
         if(can) {
             columns = [
                 { data: 'id' },
-                { data: 'avatar', orderable: false, searchable: false },
                 { data: 'fullname' },
-                { data: 'email' },
+                { data: 'company' },
                 { data: 'phone' },
                 { data: 'document' },
-                { data: 'year' },
-                { data: 'company' },
-                { data: 'logo', orderable: false, searchable: false },
                 { data: 'actions', defaultContent: '', orderable: false }
             ];
         } else {
             columns = [
                 { data: 'id' },
-                { data: 'avatar', orderable: false, searchable: false },
                 { data: 'fullname' },
-                { data: 'email' },
                 { data: 'phone' },
                 { data: 'document' },
                 { data: 'year' },
@@ -161,53 +127,45 @@ route('clients.index') => 'Clientes',
                 {
                     targets: 1,
                     render: function (data, type, row) {
-                        if (data) {
-                            return `<img src="${data}" alt="Avatar" style="width: 40px; height: 40px; border-radius: 50%;">`;
-                        }
-                        return '<span class="text-muted">Sin avatar</span>';
+                        let avatarUrl = row.avatar 
+                                ? `{{ asset('storage/') }}/${row.avatar}`
+                                : `{{ asset('/images/placeholders/user.png') }}`;
+
+                        return `<div class="d-flex align-items-center">
+                                        <div class="symbol symbol-circle symbol-40px overflow-hidden me-3">
+                                            <a href="${ `{{ route("clients.edit", ["client" => 'here']) }}`.replace('here', row.id) }">
+                                                <div class="symbol-label">
+                                                    <img src="${avatarUrl}" alt="client-${row.id}" class="w-100"/>  
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex flex-column">
+                                            <a href="${`{{ route("clients.edit", ["client" => 'here']) }}`.replace('here', row.id)}" class="text-gray-800 text-hover-primary">
+                                                 ${row.fullname}
+                                            </a>
+                                            <span>${row.email}</span>
+                                        </div>
+                                    </div>`
                     }
                 },
                 {
                     targets: 2,
                     render: function (data, type, row) {
-                        const title = data && data.length > 25 ? `${data.slice(0, 25).replace(/\s+$/, '')}...` : data;
+                        let logoUrl = row.logo 
+                                ? `{{ asset('storage/') }}/${row.logo}`
+                                : `{{ asset('/img/placeholders/user.png') }}`;
 
-                        return `<a href="${ `{{ route("clients.edit", ["client" => 'here']) }}`.replace('here', row.id) }" class="text-dark fw-bolder text-hover-primary fs-6">
-                                    ${title}
-                                </a>`;
-                    }
-                },
-                {
-                    targets: 3,
-                    render: function (data, type, row) {
-                        return data ? `<a href="mailto:${data}" class="text-dark text-hover-primary">${data}</a>` : '<span class="text-muted">No disponible</span>';
-                    }
-                },
-                {
-                    targets: 4,
-                    render: function (data, type, row) {
-                        return data ? `<a href="tel:${data}" class="text-dark text-hover-primary">${data}</a>` : '<span class="text-muted">No disponible</span>';
-                    }
-                },
-                {
-                    targets: 6,
-                    render: function (data, type, row) {
-                        return data || '<span class="text-muted">No especificado</span>';
-                    }
-                },
-                {
-                    targets: 7,
-                    render: function (data, type, row) {
-                        return data || '<span class="text-muted">Sin empresa</span>';
-                    }
-                },
-                {
-                    targets: 8,
-                    render: function (data, type, row) {
-                        if (data) {
-                            return `<img src="${data}" alt="Logo" style="width: 40px; height: 40px;">`;
-                        }
-                        return '<span class="text-muted">Sin logo</span>';
+                        return `<div class="d-flex align-items-center">
+                                        <div class="symbol symbol-circle symbol-40px overflow-hidden me-3">
+                                            <div class="symbol-label">
+                                                <img src="${logoUrl}" alt="logo-${row.id}" class="w-100"/>  
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column">
+                                            ${row.company} (${row.year})
+                                            <a href="${row.url}" target="_blank" class="text-gray-800 text-hover-primary">${row.url}</a>
+                                        </div>
+                                    </div>`
                     }
                 },
                 {
