@@ -44,14 +44,12 @@
                             'required',
                             'id' => 'country_id',
                             'class' => 'form-control mb-3 mb-lg-0',
-                            'placeholder' => 'Seleccione un país'
                         ]) !!}
                     </div>
                     <div class="fv-row col-md-6">
-                        <label class="required fw-bold fs-6 mb-2">Teléfono</label>
+                        <label class="fw-bold fs-6 mb-2">Teléfono</label>
                         {!! Form::text('phone', old('phone'),
-                            ['required',
-                            'id' => 'phone',
+                            ['id' => 'phone',
                             'class' => 'form-control mb-3 mb-lg-0',
                             'placeholder' => 'Número de teléfono'])
                         !!}
@@ -81,10 +79,9 @@
 
                 <div class="row mb-5">
                     <div class="fv-row col-md-6">
-                        <label class="required fw-bold fs-6 mb-2">Documento</label>
+                        <label class="fw-bold fs-6 mb-2">Documento</label>
                         {!! Form::text('document', old('document'),
-                            ['required',
-                            'id' => 'document',
+                            ['id' => 'document',
                             'class' => 'form-control mb-3 mb-lg-0',
                             'placeholder' => 'Número de documento'])
                         !!}

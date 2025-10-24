@@ -70,12 +70,16 @@ class ClientController extends Controller
     public function store(Request $request)
     {
         $request->validate([
+            'country_id' => 'required|exists:countries,id',
             'fullname' => 'required|string|max:255',
             'email' => 'required|email|unique:clients,email',
             'phone' => 'nullable|string|max:20',
             'document' => 'nullable|string|max:50',
-            'year' => 'nullable|integer',
-            'company' => 'nullable|string|max:255',
+            'year' => 'required|integer|min:1900|max:' . date('Y'),
+            'company' => 'required|string|max:255',
+            'url' => 'nullable|url|max:255',
+            'avatar' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
+            'logo' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
         ]);
 
         $client = new Client;
