@@ -18,11 +18,11 @@ class CreateClientsTable extends Migration
             $table->unsignedBigInteger('country_id');
             $table->string('fullname');
             $table->string('email');
-            $table->string('phone');
-            $table->string('document');
+            $table->string('phone')->nullable();
+            $table->string('document')->nullable();
             $table->year('year');
             $table->string('company');
-            $table->string('url');
+            $table->string('url')->nullable();
             $table->string('avatar')->nullable();
             $table->string('logo')->nullable();
             $table->timestamps();

@@ -39,6 +39,11 @@ class PermissionSeeder extends Seeder
             ['name' => 'client_edit', 'description' => 'Editar Clientes', 'custom' => 0],
             ['name' => 'client_delete', 'description' => 'Eliminar Clientes', 'custom' => 0],
 
+            ['name' => 'skill_view', 'description' => 'Ver Skill', 'custom' => 0],
+            ['name' => 'skill_create', 'description' => 'Crear Skill', 'custom' => 0],
+            ['name' => 'skill_edit', 'description' => 'Editar Skill', 'custom' => 0],
+            ['name' => 'skill_delete', 'description' => 'Eliminar Skill', 'custom' => 0],
+
         ]; 
 
         $permissions = [];
@@ -82,6 +87,12 @@ class PermissionSeeder extends Seeder
             'client_view',
             'client_create', 
             'client_edit'
+        ];
+
+        $skill = [
+            'skill_view',
+            'skill_create',
+            'skill_edit'
         ];
 
 

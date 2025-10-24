@@ -146,6 +146,34 @@
 					</a>
 				</div>
 				@endcan
+
+				<!-- SKILLS -->
+				@can('skill_view')
+				<div class="menu-item">
+					<a class="menu-link 
+					{{ request()->routeIs('skills.index') || request()->routeIs('skills.create') || request()->routeIs('skills.edit') ? 'active' : '' }}" 
+					 href="{{ route('skills.index') }}">
+                        <span class="menu-icon">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M20 9.6C20 5.6 18.4 4 14.4 4H9.6C5.6 4 4 5.6 4 9.6V14.4C4 18.4 5.6 20 9.6 20" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M16.35 8C15.8 7.3 14.88 7 13.5 7H10.5C8 7 7 8 7 10.5V13.5C7 14.88 7.3 15.8 7.99 16.35" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M8.01001 4V2" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M12 4V2" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M16 4V2" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M20 8H22" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M8.01001 20V22" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M2 8H4" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M2 12H4" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M2 16H4" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M16.71 18.5902C17.5881 18.5902 18.3 17.8783 18.3 17.0002C18.3 16.122 17.5881 15.4102 16.71 15.4102C15.8319 15.4102 15.12 16.122 15.12 17.0002C15.12 17.8783 15.8319 18.5902 16.71 18.5902Z" stroke="#FFFFFF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M11.41 17.4615V16.5315C11.41 15.9815 11.86 15.5315 12.41 15.5315C13.37 15.5315 13.76 14.8515 13.28 14.0215C13 13.5415 13.17 12.9215 13.65 12.6515L14.56 12.1215C14.98 11.8715 15.52 12.0215 15.77 12.4415L15.83 12.5415C16.31 13.3715 17.09 13.3715 17.57 12.5415L17.63 12.4415C17.88 12.0215 18.42 11.8815 18.84 12.1215L19.75 12.6515C20.23 12.9315 20.4 13.5415 20.12 14.0215C19.64 14.8515 20.03 15.5315 20.99 15.5315C21.54 15.5315 21.99 15.9815 21.99 16.5315V17.4615C21.99 18.0115 21.54 18.4615 20.99 18.4615C20.03 18.4615 19.64 19.1415 20.12 19.9715C20.4 20.4515 20.23 21.0715 19.75 21.3415L18.84 21.8715C18.42 22.1215 17.88 21.9715 17.63 21.5515L17.57 21.4515C17.09 20.6215 16.31 20.6215 15.83 21.4515L15.77 21.5515C15.52 21.9715 14.98 22.1115 14.56 21.8715L13.65 21.3415C13.17 21.0615 13 20.4515 13.28 19.9715C13.76 19.1415 13.37 18.4615 12.41 18.4615C11.86 18.4715 11.41 18.0215 11.41 17.4615Z" stroke="#FFFFFF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
+
+                        </span>
+                        <span class="menu-title">Skills</span>
+					</a>
+				</div>
+				@endcan
 		
 			</div>
 		</div>

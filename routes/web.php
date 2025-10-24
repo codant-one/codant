@@ -12,7 +12,8 @@ use App\Http\Controllers\{
     ProvinceController,
     CityController,
     TestingController,
-    ClientController
+    ClientController,
+    SkillController
 };
 
 use App\Http\Controllers\Auth\{
@@ -70,6 +71,7 @@ Route::middleware(['auth:web', '2fa:web'])->prefix('admin')->group(function () {
         'roles'        => RolController::class,
         'permissions'  => PermissionController::class,
         'clients'      => ClientController::class,
+        'skills'       => SkillController::class,
     ]);
 
     /* DASHBOARD */
