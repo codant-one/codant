@@ -12,25 +12,12 @@
     <div class="card">
         <div class="card-body border-0 pt-2 pb-7">
             <div class="pt-0 table-responsive w-100">
-                @can('skill_create')
-                <a href="{{ route('skills.create') }}" class='btn btn-primary w-25 d-flex align-center mb-5 svg-buttons float-end'>
-                    <span class="mr-2">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M8 12H16" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M12 16V8" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    </span>
-                    Agregar Nueva
-                </a>
-                @endcan
-                <table id="skills" class="table align-middle table-row-bordered fs-6" style="width:100%">
+                <table id="kt_datatable_example_1" class="table align-middle table-row-bordered fs-6" style="width:100%">
                     <thead class="text-start text-muted fw-bolder fs-7 text-uppercase gs-0">
                         <tr>
                             <th class="w-60px">ID</th>
                             <th class="w-300px">NOMBRE (ES)</th>
                             <th class="w-300px">NOMBRE (EN)</th>
-                            <th class="w-200px">FECHA CREACIÓN</th>
                             @canany(['skill_edit', 'skill_delete'])
                             <th class="text-center w-100px">ACCIONES</th>
                             @endcanany
@@ -44,9 +31,6 @@
                             </th>
                             <th>
                                 <input type="text" class="form-control form-control-sm" placeholder="NOMBRE INGLÉS"/>
-                            </th>
-                            <th>
-                                <input type="date" class="form-control form-control-sm" placeholder="FECHA"/>
                             </th>
                             @canany(['skill_edit', 'skill_delete'])
                             <th class="text-center w-100px filters">
@@ -81,7 +65,6 @@
                 { data: 'id' },
                 { data: 'name_es' },
                 { data: 'name_en' },
-                { data: 'created_at' },
                 { data: 'actions', defaultContent: '', orderable: false }
             ];
         } else {
@@ -89,7 +72,6 @@
                 { data: 'id' },
                 { data: 'name_es' },
                 { data: 'name_en' },
-                { data: 'created_at' },
                 { data: 'actions', defaultContent: '', visible: false }
             ];
         }
@@ -146,16 +128,6 @@
                     }
                 },
                 {
-                    targets: 3,
-                    render: function (data, type, row) {
-                        if (data) {
-                            const date = new Date(data);
-                            return date.toLocaleDateString('es-ES');
-                        }
-                        return '<span class="text-muted">No disponible</span>';
-                    }
-                },
-                {
                     targets: -1,
                     data: null,
                     orderable: false,
@@ -200,23 +172,6 @@
                 }
             ],
             order: [[ 0, "desc" ]],
-            language: {
-                "emptyTable": "No hay datos disponibles",
-                "info": "Mostrando _START_ a _END_ de _TOTAL_ registros",
-                "infoEmpty": "Mostrando 0 a 0 de 0 registros",
-                "infoFiltered": "(filtrado de _MAX_ registros totales)",
-                "lengthMenu": "Mostrar _MENU_ registros",
-                "loadingRecords": "Cargando...",
-                "processing": "Procesando...",
-                "search": "Buscar:",
-                "zeroRecords": "No se encontraron registros coincidentes",
-                "paginate": {
-                    "first": "Primero",
-                    "last": "Último", 
-                    "next": "Siguiente",
-                    "previous": "Anterior"
-                }
-            }
         });
 
         // Filtros individuales por columna
