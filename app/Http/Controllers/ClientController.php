@@ -58,7 +58,9 @@ class ClientController extends Controller
     public function create(Request $request)
     {
         $countries = Country::pluck('name', 'id');
-        return view('cruds.clients.create', compact('countries'));
+        $countriesDetails = Country::select('id', 'phonecode', 'phone_digits')->get();
+        $countriesPhoneCodes = Country::pluck('phonecode', 'id');
+        return view('cruds.clients.create', compact('countries', 'countriesDetails', 'countriesPhoneCodes'));
     }
 
     /**
@@ -69,6 +71,15 @@ class ClientController extends Controller
      */
     public function store(Request $request)
     {
+        if ($request->has("country_id")){
+            $country = Country::find($request->country_id);
+            if ($country) {
+                $request->merge([
+                    "phone" => '+' . $country->phonecode . $request->phone
+                ]);
+            }
+        }
+
         $request->validate([
             'country_id' => 'required|exists:countries,id',
             'fullname' => 'required|string|max:255',
@@ -116,6 +127,8 @@ class ClientController extends Controller
     {
         $client = Client::find($id);
         $countries = Country::pluck('name', 'id');
+        $countriesDetails = Country::select('id', 'phonecode', 'phone_digits')->get();
+        $countriesPhoneCodes = Country::pluck('phonecode', 'id');
         
         if (!$client)
             return redirect()->route('clients.index')->with([
@@ -126,7 +139,7 @@ class ClientController extends Controller
                 ]
             ]);
 
-        return view('cruds.clients.edit', compact('client', 'countries'));
+        return view('cruds.clients.edit', compact('client', 'countries', 'countriesDetails', 'countriesPhoneCodes'));
     }
 
     /**
@@ -148,6 +161,15 @@ class ClientController extends Controller
                     'message' => 'No se encontró el cliente'
                 ]
             ]);
+
+        if ($request->has("country_id")){
+            $country = Country::find($request->country_id);
+            if ($country) {
+                $request->merge([
+                    "phone" => '+' . $country->phonecode . $request->phone
+                ]);
+            }
+        }
 
         $request->validate([
             'fullname' => 'required|string|max:255',

@@ -50,22 +50,25 @@
                     </div>
                 </div>
                 <div class="row mb-4">
-                    <label class="col-lg-4 col-form-label required fw-bold fs-6">Teléfono</label>
+                    <label class="col-lg-4 col-form-label fw-bold fs-6">Teléfono</label>
                     <div class="col-lg-8 fv-row fv-plugins-icon-container">
-                        {!! Form::text('phone', old('phone', $client->phone),
-                            ['required',
-                            'id' => 'phone',
-                            'class' => 'form-control mb-3 mb-lg-0',
-                            'placeholder' => 'Número de teléfono'])
-                        !!}
+                        <div class="input-group">
+                            <span class="input-group-text pe-3" id="phonecode" style="background-color: #f5f8fa;border-color: #d9d9d9;color: #5e6278;transition: color .2s ease,background-color .2s ease;">+</span>
+                            {!! Form::text('phone', old('phone', $client->phone),
+                                ['id' => 'phone',
+                                'class' => 'form-control mb-3 mb-lg-0',
+                                'aria-describedby' => 'phonecode',
+                                'readonly' => 'readonly',
+                                'placeholder' => 'Número de teléfono'])
+                            !!}
+                        </div>
                     </div>
                 </div>
                 <div class="row mb-4">
-                    <label class="col-lg-4 col-form-label required fw-bold fs-6">Documento</label>
+                    <label class="col-lg-4 col-form-label fw-bold fs-6">Documento</label>
                     <div class="col-lg-8 fv-row fv-plugins-icon-container">
                         {!! Form::text('document', old('document', $client->document),
-                            ['required',
-                            'id' => 'document',
+                            ['id' => 'document',
                             'class' => 'form-control mb-3 mb-lg-0',
                             'placeholder' => 'Número de documento'])
                         !!}
@@ -179,4 +182,71 @@
         {!! Form::close() !!}
     </div>
 </div>
+@endsection
+@section('scripts')
+<script>
+    $(document).ready(function () {
+        let countriesDetails = @json($countriesDetails);
+        let countriesPhoneCodes = @json($countriesPhoneCodes);
+        
+        $('#country_id').select2();
+        $('#country_id').on('change', function() {
+            var country_id = this.value;
+            $("#phone").val("");
+            $("#phonecode").html("+");
+            $("#phone").prop("readonly", true);
+
+            if(country_id != '') {
+                drawPhone(country_id);
+            }
+        });
+
+        // Si estamos en edit, cargar el formato del país actual
+        @if(isset($client) && $client->country_id)
+            drawPhone({{ $client->country_id }});
+            
+            // Si hay teléfono guardado, extraer solo el número (sin código)
+            @if($client->phone)
+                var country = countriesDetails.find(function(element) {
+                    return element.id == {{ $client->country_id }};
+                });
+                if(country) {
+                    var phonePrefix = '+' + country.phonecode;
+                    $("#phone").val("{{ $client->phone }}".replace(phonePrefix, ''));
+                }
+            @endif
+        @endif
+
+        function drawPhone(country_id) {
+            var element = false;
+
+            if (countriesDetails.length > 0){
+                element = countriesDetails.find(function(element) {
+                    return element.id == country_id;
+                });
+
+                if (element){
+                    $("#phone").prop("minLength", 0);
+                    $("#phone").prop("maxLength", 0);
+                    $("#phone").prop("maxLength", element.phone_digits);
+                    $("#phone").prop("minLength", element.phone_digits);
+                    var phonePrefix = '+' + element.phonecode;
+                    $("#phonecode").html(phonePrefix);
+                    $("#phone").prop("readonly", false);
+
+                    var mask = ""
+
+                    for(var i = 0; i < element.phone_digits; i++)
+                        mask = mask + '9'
+
+                    if(typeof Inputmask !== 'undefined') {
+                        Inputmask({
+                            "mask" : mask
+                        }).mask("#phone");   
+                    }
+                }
+            }
+        }
+    });
+</script>
 @endsection

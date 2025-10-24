@@ -46,14 +46,18 @@
                             'class' => 'form-control mb-3 mb-lg-0',
                         ]) !!}
                     </div>
-                    <div class="fv-row col-md-6">
+                     <div class="fv-row col-md-6">
                         <label class="fw-bold fs-6 mb-2">Teléfono</label>
-                        {!! Form::text('phone', old('phone'),
-                            ['id' => 'phone',
-                            'class' => 'form-control mb-3 mb-lg-0',
-                            'placeholder' => 'Número de teléfono'])
-                        !!}
-                        <div class="text-muted fs-7 mt-1" id="phone-format">Seleccione un país primero</div>
+                        <div class="input-group">
+                            <span class="input-group-text pe-3" id="phonecode" style="background-color: #f5f8fa;border-color: #d9d9d9;color: #5e6278;transition: color .2s ease,background-color .2s ease;">+</span>
+                            {!! Form::text('phone', old('phone'),
+                                ['id' => 'phone',
+                                'class' => 'form-control mb-3 mb-lg-0',
+                                'aria-describedby' => 'phonecode',
+                                'readonly' => 'readonly',
+                                'placeholder' => 'Número de teléfono'])
+                            !!}
+                        </div>
                     </div>
                 </div>
                 
@@ -138,11 +142,67 @@
 @section('scripts')
 <script>
     $(document).ready(function () {
-        $('#country_id').select2({
-            placeholder: 'Seleccione un país',
-            allowClear: true
+        let countriesDetails = @json($countriesDetails);
+        let countriesPhoneCodes = @json($countriesPhoneCodes);
+        
+        $('.countries').select2();
+        $('#country_id').on('change', function() {
+            var country_id = this.value;
+            $("#phone").val("");
+            $("#phonecode").html("+");
+            $("#phone").prop("readonly", true);
+
+            if(country_id != '') {
+                drawPhone(country_id);
+            }
         });
+
+        // Si estamos en edit, cargar el formato del país actual
+        @if(isset($client) && $client->country_id)
+            drawPhone({{ $client->country_id }});
+            
+            // Si hay teléfono guardado, extraer solo el número (sin código)
+            @if($client->phone)
+                var country = countriesDetails.find(function(element) {
+                    return element.id == {{ $client->country_id }};
+                });
+                if(country) {
+                    var phonePrefix = '+' + country.phonecode;
+                    $("#phone").val("{{ $client->phone }}".replace(phonePrefix, ''));
+                }
+            @endif
+        @endif
+
+        function drawPhone(country_id) {
+            var element = false;
+
+            if (countriesDetails.length > 0){
+                element = countriesDetails.find(function(element) {
+                    return element.id == country_id;
+                });
+
+                if (element){
+                    $("#phone").prop("minLength", 0);
+                    $("#phone").prop("maxLength", 0);
+                    $("#phone").prop("maxLength", element.phone_digits);
+                    $("#phone").prop("minLength", element.phone_digits);
+                    var phonePrefix = '+' + element.phonecode;
+                    $("#phonecode").html(phonePrefix);
+                    $("#phone").prop("readonly", false);
+
+                    var mask = ""
+
+                    for(var i = 0; i < element.phone_digits; i++)
+                        mask = mask + '9'
+
+                    if(typeof Inputmask !== 'undefined') {
+                        Inputmask({
+                            "mask" : mask
+                        }).mask("#phone");   
+                    }
+                }
+            }
+        }
     });
 </script>
-
 @endsection
