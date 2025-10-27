@@ -3,7 +3,7 @@
     'breadcrumbs' => [
         route('admin.dashboard.index') => 'Inicio',
         route('skills.index') => 'Skills',
-        route('skills.create') => 'Agregar Nueva'
+        route('skills.create') => 'Agregar nuevo'
     ]
 ])
 
@@ -13,7 +13,7 @@
         {!! Form::open(['route' => ['skills.store'], 'method' => 'POST']) !!}
         <div class="card">
             <div class="card-header">
-                <div class="card-title fs-3 fw-bolder">Agregar Nueva Skills</div>
+                <div class="card-title fs-3 fw-bolder">Agregar nuevo</div>
             </div>
             <div class="card-body border-top px-10 py-7">
                 <div class="row mb-4">
@@ -40,7 +40,7 @@
                 </div>
             </div>
             <div class="card-footer d-flex justify-content-end py-6 px-9">
-                <a href="{{ route('skills.index') }}" class="d-flex align-center justify-content-center btn btn-light me-2">Regresar</a>
+                <button type="reset" class="btn btn-light me-3 form-modal-dismiss dismiss-create">Descartar</button>
                 <button type="submit" class="btn btn-primary">
                     <span class="indicator-label">Registrar</span>
                     <span class="indicator-progress">

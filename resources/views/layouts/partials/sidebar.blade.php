@@ -149,7 +149,7 @@
 
 				<!-- SKILLS -->
 				@can('skill_view')
-				<div class="menu-item">
+				<div class="menu-item mt-1">
 					<a class="menu-link 
 					{{ request()->routeIs('skills.index') || request()->routeIs('skills.create') || request()->routeIs('skills.edit') ? 'active' : '' }}" 
 					 href="{{ route('skills.index') }}">

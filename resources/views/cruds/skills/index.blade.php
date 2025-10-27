@@ -83,7 +83,6 @@
             ajax: {
                 url: "{{ route('skills.index') }}",
                 dataFilter: function(data){
-                    console.log(data);
                     var json = JSON.parse( data );
                     json.recordsTotal = json.last_page;
                     json.recordsFiltered = json.total;

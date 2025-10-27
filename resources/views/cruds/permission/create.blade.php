@@ -3,7 +3,7 @@
     'breadcrumbs' => [
         route('admin.dashboard.index') => 'Inicio',
         route('permissions.index') => 'Permisos',
-        route('permissions.create') => 'Agregar Nuevo'
+        route('permissions.create') => 'Agregar nuevo'
     ]
 ])
 
@@ -13,7 +13,7 @@
         {!! Form::open(['route' => ['permissions.store'], 'method' => 'POST', 'files' => true]) !!} 
         <div class="card">
             <div class="card-header">
-				<div class="card-title fs-3 fw-bolder">Agregar Nuevo</div>
+				<div class="card-title fs-3 fw-bolder">Agregar nuevo</div>
             </div>
             <div class="card-body px-10 py-7">
                 <div class="fv-row mb-7">

@@ -3,7 +3,7 @@
     'breadcrumbs' => [
         route('admin.dashboard.index') => 'Inicio',
         route('clients.index') => 'Clientes',
-        route('clients.create') => 'Agregar Nuevo'
+        route('clients.create') => 'Agregar nuevo'
     ]
 ])
 
@@ -13,7 +13,7 @@
         {!! Form::open(['route' => ['clients.store'], 'method' => 'POST', 'files' => true, 'id' => 'client-form']) !!}
         <div class="card">
             <div class="card-header">
-				<div class="card-title fs-3 fw-bolder">Agregar Nuevo Cliente</div>
+				<div class="card-title fs-3 fw-bolder">Agregar nuevo</div>
             </div>
             <div class="card-body px-10 py-7">  
                 <div class="row mb-5">
@@ -40,16 +40,20 @@
                 <div class="row mb-5">
                     <div class="fv-row col-md-6">
                         <label class="required fw-bold fs-6 mb-2">País</label>
-                        {!! Form::select('country_id', $countries, old('country_id'), [
-                            'required',
-                            'id' => 'country_id',
-                            'class' => 'form-control mb-3 mb-lg-0',
-                        ]) !!}
+                        <select class="form-select form-select-solid countries"
+                            name="country_id"
+                            id="country_id"
+                            required>
+                            <option value="" selected="selected">Seleccione</option>
+                            @foreach ($countries as $key => $country)
+                                <option value="{{ $key }}">{{ $country }}</option>
+                            @endforeach
+					    </select>
                     </div>
                      <div class="fv-row col-md-6">
                         <label class="fw-bold fs-6 mb-2">Teléfono</label>
                         <div class="input-group">
-                            <span class="input-group-text pe-3" id="phonecode" style="background-color: #f5f8fa;border-color: #d9d9d9;color: #5e6278;transition: color .2s ease,background-color .2s ease;">+</span>
+                            <span class="input-group-text pe-3" id="phonecode" style="background-color: #f5f8fa;border-color: #d9d9d9;color: #5e6278;transition: color .2s ease,background-color .2s ease;"></span>
                             {!! Form::text('phone', old('phone'),
                                 ['id' => 'phone',
                                 'class' => 'form-control mb-3 mb-lg-0',
@@ -125,9 +129,9 @@
                 </div>
             </div>
             <div class="card-footer d-flex justify-content-center">
-                <a href="{{ route('clients.index') }}" class="btn btn-light me-3 w-300px">Cancelar</a>
+                <button type="reset" class="btn btn-light me-3 form-modal-dismiss w-300px dismiss-create">Descartar</button>
                 <button type="submit" id="kt_modal_create_client_submit" class="btn btn-primary w-300px">
-                    <span class="indicator-label">Registrar Cliente</span>
+                    <span class="indicator-label">Registrar cliente</span>
                     <span class="indicator-progress">
                         <span class="spinner-border spinner-border-md align-middle ms-2"></span>
                     </span>
