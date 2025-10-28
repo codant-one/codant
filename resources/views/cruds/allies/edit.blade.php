@@ -3,7 +3,7 @@
     'breadcrumbs' => [
         route('admin.dashboard.index') => 'Inicio',
         route('allies.index') => 'Aliados',
-        'Editar Aliado'
+        'Editar'
     ]
 ])
 
@@ -13,7 +13,7 @@
         {!! Form::open(['route' => ['allies.update', $ally], 'method' => 'PUT', 'files' => true, 'id' => 'ally-form']) !!}
         <div class="card">
             <div class="card-header">
-                <div class="card-title fs-3 fw-bolder">Editar Aliado</div>
+                <div class="card-title fs-3 fw-bolder">Editar</div>
             </div>
             <div class="card-body border-top px-10 py-7">
                 <div class="row mb-4">
@@ -110,7 +110,7 @@
 
                 <!-- Avatar actual -->
                 <div class="row mb-4">
-                    <label class="col-lg-4 col-form-label fw-bold fs-6">Avatar Actual</label>
+                    <label class="col-lg-4 col-form-label fw-bold fs-6">Avatar actual</label>
                     <div class="col-lg-8">
                         @if($ally->avatar)
                             <div class="symbol symbol-100px symbol-circle mb-3">
@@ -127,20 +127,19 @@
                 </div>
 
                 <div class="row mb-4">
-                    <label class="col-lg-4 col-form-label fw-bold fs-6">Nuevo Avatar</label>
+                    <label class="col-lg-4 col-form-label fw-bold fs-6">Nuevo avatar</label>
                     <div class="col-lg-8 fv-row fv-plugins-icon-container">
                         {!! Form::file('avatar', 
                             ['id' => 'avatar',
                             'class' => 'form-control mb-3 mb-lg-0',
                             'accept' => 'image/*'])
                         !!}
-                        <div class="text-muted fs-7 mt-1">Dejar vacío para mantener el actual. Formatos: JPG, PNG, GIF. Tamaño máximo: 2MB</div>
                     </div>
                 </div>
 
                 <!-- Logo actual -->
                 <div class="row mb-4">
-                    <label class="col-lg-4 col-form-label fw-bold fs-6">Logo Actual</label>
+                    <label class="col-lg-4 col-form-label fw-bold fs-6">Logo actual</label>
                     <div class="col-lg-8">
                         @if($ally->logo)
                             <div class="symbol symbol-100px symbol-square mb-3">
@@ -157,14 +156,13 @@
                 </div>
 
                 <div class="row mb-4">
-                    <label class="col-lg-4 col-form-label fw-bold fs-6">Nuevo Logo</label>
+                    <label class="col-lg-4 col-form-label fw-bold fs-6">Nuevo logo</label>
                     <div class="col-lg-8 fv-row fv-plugins-icon-container">
                         {!! Form::file('logo', 
                             ['id' => 'logo',
                             'class' => 'form-control mb-3 mb-lg-0',
                             'accept' => 'image/*'])
                         !!}
-                        <div class="text-muted fs-7 mt-1">Dejar vacío para mantener el actual. Formatos: JPG, PNG, GIF. Tamaño máximo: 2MB</div>
                     </div>
                 </div>
             </div>

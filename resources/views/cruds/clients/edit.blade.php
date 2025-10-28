@@ -110,7 +110,7 @@
 
                 <!-- Avatar actual -->
                 <div class="row mb-4">
-                    <label class="col-lg-4 col-form-label fw-bold fs-6">Avatar Actual</label>
+                    <label class="col-lg-4 col-form-label fw-bold fs-6">Avatar actual</label>
                     <div class="col-lg-8">
                         @if($client->avatar)
                             <div class="symbol symbol-100px symbol-circle mb-3">
@@ -127,7 +127,7 @@
                 </div>
 
                 <div class="row mb-4">
-                    <label class="col-lg-4 col-form-label fw-bold fs-6">Nuevo Avatar</label>
+                    <label class="col-lg-4 col-form-label fw-bold fs-6">Nuevo avatar</label>
                     <div class="col-lg-8 fv-row fv-plugins-icon-container">
                         {!! Form::file('avatar', 
                             ['id' => 'avatar',
@@ -139,7 +139,7 @@
 
                 <!-- Logo actual -->
                 <div class="row mb-4">
-                    <label class="col-lg-4 col-form-label fw-bold fs-6">Logo Actual</label>
+                    <label class="col-lg-4 col-form-label fw-bold fs-6">Logo actual</label>
                     <div class="col-lg-8">
                         @if($client->logo)
                             <div class="symbol symbol-100px symbol-square mb-3">
@@ -156,7 +156,7 @@
                 </div>
 
                 <div class="row mb-4">
-                    <label class="col-lg-4 col-form-label fw-bold fs-6">Nuevo Logo</label>
+                    <label class="col-lg-4 col-form-label fw-bold fs-6">Nuevo logo</label>
                     <div class="col-lg-8 fv-row fv-plugins-icon-container">
                         {!! Form::file('logo', 
                             ['id' => 'logo',

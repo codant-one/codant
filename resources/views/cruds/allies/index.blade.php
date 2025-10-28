@@ -83,9 +83,6 @@ route('allies.index') => 'Aliados',
                 { data: 'fullname' },
                 { data: 'phone' },
                 { data: 'document' },
-                { data: 'year' },
-                { data: 'company' },
-                { data: 'logo', orderable: false, searchable: false },
                 { data: 'actions', defaultContent: '', visible: false }
             ];
         }
@@ -129,7 +126,7 @@ route('allies.index') => 'Aliados',
                     render: function (data, type, row) {
                         let avatarUrl = row.avatar 
                                 ? `{{ asset('storage/') }}/${row.avatar}`
-                                : `{{ asset('/images/placeholders/user.png') }}`;
+                                : `{{ asset('/img/placeholders/user.png') }}`;
 
                         return `<div class="d-flex align-items-center">
                                         <div class="symbol symbol-circle symbol-40px overflow-hidden me-3">
@@ -163,7 +160,9 @@ route('allies.index') => 'Aliados',
                                         </div>
                                         <div class="d-flex flex-column">
                                             ${row.company} (${row.year})
-                                            <a href="${row.url}" target="_blank" class="text-gray-800 text-hover-primary">${row.url}</a>
+                                            ${row.url ? 
+                                            `<a href="${row.url}" target="_blank" class="text-gray-800 text-hover-primary">${row.url}</a>` : 
+                                            '<span class="text-gray-800 text-hover-primary">N/A</span>'}
                                         </div>
                                     </div>`
                     }

@@ -3,7 +3,7 @@
     'breadcrumbs' => [
         route('admin.dashboard.index') => 'Inicio',
         route('allies.index') => 'Aliados',
-        route('allies.create') => 'Agregar Nuevo'
+        route('allies.create') => 'Agregar nuevo'
     ]
 ])
 
@@ -13,7 +13,7 @@
         {!! Form::open(['route' => ['allies.store'], 'method' => 'POST', 'files' => true, 'id' => 'ally-form']) !!}
         <div class="card">
             <div class="card-header">
-				<div class="card-title fs-3 fw-bolder">Agregar Nuevo Aliado</div>
+				<div class="card-title fs-3 fw-bolder">Agregar nuevo</div>
             </div>
             <div class="card-body px-10 py-7">  
                 <div class="row mb-5">
@@ -40,11 +40,15 @@
                 <div class="row mb-5">
                     <div class="fv-row col-md-6">
                         <label class="required fw-bold fs-6 mb-2">País</label>
-                        {!! Form::select('country_id', $countries, old('country_id'), [
-                            'required',
-                            'id' => 'country_id',
-                            'class' => 'form-control mb-3 mb-lg-0',
-                        ]) !!}
+                        <select class="form-select form-select-solid countries"
+                            name="country_id"
+                            id="country_id"
+                            required>
+                            <option value="" selected="selected">Seleccione</option>
+                            @foreach ($countries as $key => $country)
+                                <option value="{{ $key }}">{{ $country }}</option>
+                            @endforeach
+					    </select>
                     </div>
                      <div class="fv-row col-md-6">
                         <label class="fw-bold fs-6 mb-2">Teléfono</label>
@@ -127,7 +131,7 @@
             <div class="card-footer d-flex justify-content-center">
                 <a href="{{ route('allies.index') }}" class="btn btn-light me-3 w-300px">Cancelar</a>
                 <button type="submit" id="kt_modal_create_ally_submit" class="btn btn-primary w-300px">
-                    <span class="indicator-label">Registrar Aliado</span>
+                    <span class="indicator-label">Registrar aliado</span>
                     <span class="indicator-progress">
                         <span class="spinner-border spinner-border-md align-middle ms-2"></span>
                     </span>

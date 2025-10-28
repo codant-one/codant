@@ -101,7 +101,6 @@ class PermissionSeeder extends Seeder
         $superAdmin = Role::where('name', 'SuperAdmin')->first();
         if ($superAdmin) {
             $superAdmin->syncPermissions($allPermissionIds);
-            $this->command->info('Permisos asignados al SuperAdmin: ' . count($allPermissionIds));
         }
 
         // Definir permisos específicos para el Administrador
@@ -129,7 +128,6 @@ class PermissionSeeder extends Seeder
         $admin = Role::where('name', 'Administrador')->first();
         if ($admin) {
             $admin->syncPermissions($adminPermissions);
-            $this->command->info('Permisos asignados al Administrador: ' . count($adminPermissions));
         }
     }
 }

@@ -83,9 +83,6 @@ route('clients.index') => 'Clientes',
                 { data: 'fullname' },
                 { data: 'phone' },
                 { data: 'document' },
-                { data: 'year' },
-                { data: 'company' },
-                { data: 'logo', orderable: false, searchable: false },
                 { data: 'actions', defaultContent: '', visible: false }
             ];
         }

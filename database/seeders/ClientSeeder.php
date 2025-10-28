@@ -39,8 +39,6 @@ class ClientSeeder extends Seeder
                 'year' => $faker->numberBetween(1990, 2023),
                 'company' => $company,
                 'url' => 'https://' . str_replace(' ', '', $company) . '.com',
-                'avatar' => $faker->optional(0.7)->passthrough('avatars/' . $faker->word . '.jpg'),
-                'logo' => $faker->optional(0.5)->passthrough('logos/' . $faker->word . '.png'),
                 'created_at' => now(),
                 'updated_at' => now(),
             ];

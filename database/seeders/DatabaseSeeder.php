@@ -25,8 +25,10 @@ class DatabaseSeeder extends Seeder
             CountrySeeder::class,
             ProvinceSeeder::class,
             CitySeeder::class,
-            ClientSeeder::class,
             SkillSeeder::class,
+
+            /* FACTORIES */
+            ClientSeeder::class,
             AllySeeder::class,
 
             /* LANDING */
