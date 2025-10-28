@@ -177,7 +177,7 @@
 
 				<!-- ALIADOS -->
 				@can('ally_view')
-				<div class="menu-item">
+				<div class="menu-item mt-1">
 					<a class="menu-link 
 					{{ request()->routeIs('allies.index') || request()->routeIs('allies.create') || request()->routeIs('allies.edit') ? 'active' : '' }}" 
 					 href="{{ route('allies.index') }}">
