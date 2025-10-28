@@ -78,7 +78,7 @@ class SkillController extends Controller
             'feedback' => [
                 'type' => 'toastr',
                 'action' => 'success',
-                'message' => 'Skill creada exitosamente'
+                'message' => 'Skill creado exitosamente'
             ]
         ]);
     }
@@ -98,7 +98,7 @@ class SkillController extends Controller
                 'feedback' => [
                     'type' => 'toastr',
                     'action' => 'error',
-                    'message' => 'No se encontró la habilidad'
+                    'message' => 'No se encontró el skill'
                 ]
             ]);
 
@@ -121,7 +121,7 @@ class SkillController extends Controller
                 'feedback' => [
                     'type' => 'toastr',
                     'action' => 'error',
-                    'message' => 'No se encontró la skill'
+                    'message' => 'No se encontró el skill'
                 ]
             ]);
 
@@ -137,7 +137,7 @@ class SkillController extends Controller
             'feedback' => [
                 'type' => 'toastr',
                 'action' => 'success',
-                'message' => 'Skill actualizada exitosamente'
+                'message' => 'Skill actualizado exitosamente'
             ]
         ]);
     }
@@ -157,7 +157,7 @@ class SkillController extends Controller
                 'feedback' => [
                     'type' => 'toastr',
                     'action' => 'error',
-                    'message' => 'No se encontró la skill'
+                    'message' => 'No se encontró el skill'
                 ]
             ]);
 
@@ -167,7 +167,7 @@ class SkillController extends Controller
             'feedback' => [
                 'type' => 'toastr',
                 'action' => 'warning',
-                'message' => 'Skill eliminada'
+                'message' => 'Skill eliminado'
             ]
         ]);
     }

@@ -97,7 +97,6 @@ route('clients.index') => 'Clientes',
             ajax: {
                 url: "{{ route('clients.index') }}",
                 dataFilter: function(data){
-                    console.log(data);
                     var json = JSON.parse( data );
                     json.recordsTotal = json.last_page;
                     json.recordsFiltered = json.total;
@@ -129,7 +128,7 @@ route('clients.index') => 'Clientes',
                     render: function (data, type, row) {
                         let avatarUrl = row.avatar 
                                 ? `{{ asset('storage/') }}/${row.avatar}`
-                                : `{{ asset('/images/placeholders/user.png') }}`;
+                                : `{{ asset('/img/placeholders/user.png') }}`;
 
                         return `<div class="d-flex align-items-center">
                                         <div class="symbol symbol-circle symbol-40px overflow-hidden me-3">
@@ -163,7 +162,9 @@ route('clients.index') => 'Clientes',
                                         </div>
                                         <div class="d-flex flex-column">
                                             ${row.company} (${row.year})
-                                            <a href="${row.url}" target="_blank" class="text-gray-800 text-hover-primary">${row.url}</a>
+                                            ${row.url ? 
+                                            `<a href="${row.url}" target="_blank" class="text-gray-800 text-hover-primary">${row.url}</a>` : 
+                                            '<span class="text-gray-800 text-hover-primary">N/A</span>'}
                                         </div>
                                     </div>`
                     }

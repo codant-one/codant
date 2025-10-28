@@ -14,7 +14,7 @@
         {!! Form::open(['route' => ['roles.store'], 'method' => 'POST']) !!}
         <div class="card">
             <div class="card-header">
-				<div class="card-title fs-3 fw-bolder">Agregar Nuevo</div>
+				<div class="card-title fs-3 fw-bolder">Agregar nuevo</div>
 			</div>
             <div class="card-body d-flex flex-center flex-column pt-12 p-9 px-0">
                 <div class="d-flex flex-column w-80">

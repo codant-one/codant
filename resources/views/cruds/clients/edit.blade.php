@@ -3,7 +3,7 @@
     'breadcrumbs' => [
         route('admin.dashboard.index') => 'Inicio',
         route('clients.index') => 'Clientes',
-        'Editar Cliente'
+        'Editar'
     ]
 ])
 
@@ -13,7 +13,7 @@
         {!! Form::open(['route' => ['clients.update', $client], 'method' => 'PUT', 'files' => true, 'id' => 'client-form']) !!}
         <div class="card">
             <div class="card-header">
-                <div class="card-title fs-3 fw-bolder">Editar Cliente</div>
+                <div class="card-title fs-3 fw-bolder">Editar</div>
             </div>
             <div class="card-body border-top px-10 py-7">
                 <div class="row mb-4">
@@ -134,7 +134,6 @@
                             'class' => 'form-control mb-3 mb-lg-0',
                             'accept' => 'image/*'])
                         !!}
-                        <div class="text-muted fs-7 mt-1">Dejar vacío para mantener el actual. Formatos: JPG, PNG, GIF. Tamaño máximo: 2MB</div>
                     </div>
                 </div>
 
@@ -164,7 +163,6 @@
                             'class' => 'form-control mb-3 mb-lg-0',
                             'accept' => 'image/*'])
                         !!}
-                        <div class="text-muted fs-7 mt-1">Dejar vacío para mantener el actual. Formatos: JPG, PNG, GIF. Tamaño máximo: 2MB</div>
                     </div>
                 </div>
             </div>

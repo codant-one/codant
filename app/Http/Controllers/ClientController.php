@@ -73,7 +73,7 @@ class ClientController extends Controller
     {
         if ($request->has("country_id")){
             $country = Country::find($request->country_id);
-            if ($country) {
+            if ($country && $request->filled("phone")) {
                 $request->merge([
                     "phone" => '+' . $country->phonecode . $request->phone
                 ]);
@@ -164,7 +164,7 @@ class ClientController extends Controller
 
         if ($request->has("country_id")){
             $country = Country::find($request->country_id);
-            if ($country) {
+            if ($country && $request->filled("phone")) {
                 $request->merge([
                     "phone" => '+' . $country->phonecode . $request->phone
                 ]);

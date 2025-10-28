@@ -3,7 +3,7 @@
     'breadcrumbs' => [
         route('admin.dashboard.index') => 'Inicio',
         route('skills.index') => 'Skills',
-        'Editar Skill'
+        'Editar'
     ]
 ])
 
@@ -13,7 +13,7 @@
         {!! Form::open(['route' => ['skills.update', $skill->id], 'method' => 'PUT']) !!}
         <div class="card">
             <div class="card-header">
-                <div class="card-title fs-3 fw-bolder">Editar Skill</div>
+                <div class="card-title fs-3 fw-bolder">Editar</div>
             </div>
             <div class="card-body border-top px-10 py-7">
                 <div class="row mb-4">
