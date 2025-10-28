@@ -4,10 +4,10 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 
-use App\Models\Client;
+use App\Models\Ally;
 use Faker\Factory as Faker;
 
-class ClientSeeder extends Seeder
+class AllySeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -19,7 +19,7 @@ class ClientSeeder extends Seeder
         $faker = Faker::create();
         $commonCountries = [47, 231, 159, 200, 1, 2, 3]; // Colombia, Venezuela, México, Perú, etc.
 
-        $clients = [];
+        $allies = [];
 
         for ($i = 0; $i < 50; $i++) {
             $firstName = $faker->firstName;
@@ -30,7 +30,7 @@ class ClientSeeder extends Seeder
             $email = strtolower($firstName . '.' . $lastName . '@' . str_replace(' ', '', $company) . '.com');
             $email = str_replace([' ', ',', "'"], '', $email); 
 
-            $clients[] = [
+            $allies[] = [
                 'country_id' => $faker->randomElement($commonCountries),
                 'fullname' => $fullName,
                 'email' => $email,
@@ -46,6 +46,6 @@ class ClientSeeder extends Seeder
             ];
         }
 
-        Client::insert($clients);
+        Ally::insert($allies);
     }
 }

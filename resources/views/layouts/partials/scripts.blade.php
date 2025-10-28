@@ -97,6 +97,7 @@
         '/admin/permissions': @json(auth()->user()->can('permission_create')),
         '/admin/clients': @json(auth()->user()->can('client_create')),
         '/admin/skills': @json(auth()->user()->can('skill_create')),
+        '/admin/allies': @json(auth()->user()->can('ally_create')),
       };
 
       const hasPermission = routePermissions[currentPath];

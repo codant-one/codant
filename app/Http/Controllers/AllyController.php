@@ -2,16 +2,14 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
-
 use Illuminate\Http\Request;
 
-use App\Models\Client;
+use App\Models\Ally;
 use App\Models\Country;
 
 use Carbon\Carbon;
 
-class ClientController extends Controller
+class AllyController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -21,7 +19,7 @@ class ClientController extends Controller
     public function index(Request $request)
     {
         if ($request->ajax()) {
-            $query = Client::query();
+            $query = Ally::query();
 
             foreach ($request->input('order') as $order) {
                 $query->orderBy($order['column_name'], $order['dir']);
@@ -41,12 +39,12 @@ class ClientController extends Controller
                 }
             }
 
-            $clients = ($request->length == -1) ? $query->paginate( $query->count() ) : $query->paginate($request->length);
+            $allies = ($request->length == -1) ? $query->paginate( $query->count() ) : $query->paginate($request->length);
 
-            return response()->json($clients, 200);
+            return response()->json($allies, 200);
         }
 
-        return view('cruds.clients.index');
+        return view('cruds.allies.index');
     }
 
     /**
@@ -60,7 +58,7 @@ class ClientController extends Controller
         $countries = Country::pluck('name', 'id');
         $countriesDetails = Country::select('id', 'phonecode', 'phone_digits')->get();
         $countriesPhoneCodes = Country::pluck('phonecode', 'id');
-        return view('cruds.clients.create', compact('countries', 'countriesDetails', 'countriesPhoneCodes'));
+        return view('cruds.allies.create', compact('countries', 'countriesDetails', 'countriesPhoneCodes'));
     }
 
     /**
@@ -83,7 +81,7 @@ class ClientController extends Controller
         $request->validate([
             'country_id' => 'required|exists:countries,id',
             'fullname' => 'required|string|max:255',
-            'email' => 'required|email|unique:clients,email',
+            'email' => 'required|email|unique:allies,email',
             'phone' => 'nullable|string|max:20',
             'document' => 'nullable|string|max:50',
             'year' => 'required|integer|min:1900|max:' . date('Y'),
@@ -93,26 +91,26 @@ class ClientController extends Controller
             'logo' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
         ]);
 
-        $client = new Client;
-        $client->fill($request->all());
+        $ally = new Ally;
+        $ally->fill($request->all());
 
         if ($request->hasFile('avatar')) {
-            $avatarPath = $request->file('avatar')->store('clients/avatars', 'public');
-            $client->avatar = $avatarPath;
+            $avatarPath = $request->file('avatar')->store('allies/avatars', 'public');
+            $ally->avatar = $avatarPath;
         }
 
         if ($request->hasFile('logo')) {
-            $logoPath = $request->file('logo')->store('clients/logos', 'public');
-            $client->logo = $logoPath;
+            $logoPath = $request->file('logo')->store('allies/logos', 'public');
+            $ally->logo = $logoPath;
         }
 
-        $client->save();
+        $ally->save();
 
-        return redirect()->route('clients.index')->with([
+        return redirect()->route('allies.index')->with([
             'feedback' => [
                 'type' => 'toastr',
                 'action' => 'success',
-                'message' => 'Cliente creado exitosamente'
+                'message' => 'Aliado creado exitosamente'
             ]
         ]);
     }
@@ -125,21 +123,21 @@ class ClientController extends Controller
      */
     public function edit($id)
     {
-        $client = Client::find($id);
+        $ally = Ally::find($id);
         $countries = Country::pluck('name', 'id');
         $countriesDetails = Country::select('id', 'phonecode', 'phone_digits')->get();
         $countriesPhoneCodes = Country::pluck('phonecode', 'id');
         
-        if (!$client)
-            return redirect()->route('clients.index')->with([
+        if (!$ally)
+            return redirect()->route('allies.index')->with([
                 'feedback' => [
                     'type' => 'toastr',
                     'action' => 'error',
-                    'message' => 'No se encontró el cliente'
+                    'message' => 'No se encontró el aliado'
                 ]
             ]);
 
-        return view('cruds.clients.edit', compact('client', 'countries', 'countriesDetails', 'countriesPhoneCodes'));
+        return view('cruds.allies.edit', compact('ally', 'countries', 'countriesDetails', 'countriesPhoneCodes'));
     }
 
     /**
@@ -151,14 +149,14 @@ class ClientController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $client = Client::find($id);
+        $ally = Ally::find($id);
 
-        if (!$client)
-            return redirect()->route('clients.index')->with([
+        if (!$ally)
+            return redirect()->route('allies.index')->with([
                 'feedback' => [
                     'type' => 'toastr',
                     'action' => 'error',
-                    'message' => 'No se encontró el cliente'
+                    'message' => 'No se encontró el aliado'
                 ]
             ]);
 
@@ -173,32 +171,32 @@ class ClientController extends Controller
 
         $request->validate([
             'fullname' => 'required|string|max:255',
-            'email' => 'required|email|unique:clients,email,'.$client->id,
+            'email' => 'required|email|unique:allies,email,'.$ally->id,
             'phone' => 'nullable|string|max:20',
             'document' => 'nullable|string|max:50',
             'year' => 'nullable|integer',
             'company' => 'nullable|string|max:255',
         ]);
 
-        $client->fill($request->all());
+        $ally->fill($request->all());
 
         if ($request->hasFile('avatar')) {
-            $avatarPath = $request->file('avatar')->store('clients/avatars', 'public');
-            $client->avatar = $avatarPath;
+            $avatarPath = $request->file('avatar')->store('allies/avatars', 'public');
+            $ally->avatar = $avatarPath;
         }
 
         if ($request->hasFile('logo')) {
-            $logoPath = $request->file('logo')->store('clients/logos', 'public');
-            $client->logo = $logoPath;
+            $logoPath = $request->file('logo')->store('allies/logos', 'public');
+            $ally->logo = $logoPath;
         }
 
-        $client->save();
+        $ally->save();
         
-        return redirect()->route('clients.index')->with([
+        return redirect()->route('allies.index')->with([
             'feedback' => [
                 'type' => 'toastr',
                 'action' => 'success',
-                'message' => 'Cliente actualizado exitosamente'
+                'message' => 'Aliado actualizado exitosamente'
             ]
         ]);
     }
@@ -211,24 +209,24 @@ class ClientController extends Controller
      */
     public function destroy($id)
     {
-        $client = Client::find($id);
+        $ally = Ally::find($id);
         
-        if (!$client)
-            return redirect()->route('clients.index')->with([
+        if (!$ally)
+            return redirect()->route('allies.index')->with([
                 'feedback' => [
                     'type' => 'toastr',
                     'action' => 'error',
-                    'message' => 'No se encontró el cliente'
+                    'message' => 'No se encontró el aliado'
                 ]
             ]);
 
-        $client->delete();
+        $ally->delete();
 
-        return redirect()->route('clients.index')->with([
+        return redirect()->route('allies.index')->with([
             'feedback' => [
                 'type' => 'toastr',
                 'action' => 'warning',
-                'message' => 'Cliente eliminado'
+                'message' => 'Aliado eliminado'
             ]
         ]);
     }

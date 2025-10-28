@@ -13,7 +13,8 @@ use App\Http\Controllers\{
     CityController,
     TestingController,
     ClientController,
-    SkillController
+    SkillController,
+    AllyController
 };
 
 use App\Http\Controllers\Auth\{
@@ -72,6 +73,7 @@ Route::middleware(['auth:web', '2fa:web'])->prefix('admin')->group(function () {
         'permissions'  => PermissionController::class,
         'clients'      => ClientController::class,
         'skills'       => SkillController::class,
+        'allies'       => AllyController::class,
     ]);
 
     /* DASHBOARD */

@@ -93,4 +93,9 @@ class Country extends Model
         return $this->hasMany(Client::class);
     }
 
+    public function allies()
+    {
+        return $this->hasMany(Ally::class);
+    }
+
 }
