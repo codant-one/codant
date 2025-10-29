@@ -99,6 +99,7 @@
         '/admin/skills': @json(auth()->user()->can('skill_create')),
         '/admin/allies': @json(auth()->user()->can('ally_create')),
         '/admin/categories': @json(auth()->user()->can('category_create')),
+        '/admin/blogs': @json(auth()->user()->can('blog_create')),
       };
 
       const hasPermission = routePermissions[currentPath];

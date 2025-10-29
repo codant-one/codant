@@ -27,12 +27,13 @@ class DatabaseSeeder extends Seeder
             ProvinceSeeder::class,
             CitySeeder::class,
             SkillSeeder::class,
+            CategoryTypeSeeder::class,
+            CategorySeeder::class,
+            BlogSeeder::class,
 
             /* FACTORIES */
             ClientSeeder::class,
             AllySeeder::class,
-            CategoryTypeSeeder::class,
-            CategorySeeder::class,
 
             /* LANDING */
             ServiceSeeder::class
