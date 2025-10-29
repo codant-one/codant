@@ -1,0 +1,71 @@
+@extends('layouts.master', [
+    'title' => 'Categorías',
+    'breadcrumbs' => [
+        route('admin.dashboard.index') => 'Inicio',
+        route('categories.index') => 'Categorías',
+        'Crear'
+    ]
+])
+
+@section('content')
+<div class="container-fluid">
+    <div class="mx-5 mx-xl-15">
+        {!! Form::open(['route' => ['categories.store'], 'method' => 'POST']) !!}
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title fs-3 fw-bolder">Crear Categoría</div>
+            </div>
+            <div class="card-body border-top px-10 py-7">
+                <div class="row mb-4">
+                    <label class="col-lg-4 col-form-label required fw-bold fs-6">Tipo de Categoría</label>
+                    <div class="col-lg-8 fv-row fv-plugins-icon-container">
+                        {!! Form::select('category_type_id', 
+                            $categoryTypes->pluck('name', 'id'), 
+                            old('category_type_id'),
+                            ['required',
+                             'id' => 'category_type_id',
+                             'class' => 'form-select mb-3 mb-lg-0',
+                             'placeholder' => 'Seleccionar tipo de categoría'])
+                        !!}
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <label class="col-lg-4 col-form-label required fw-bold fs-6">Nombre (Español)</label>
+                    <div class="col-lg-8 fv-row fv-plugins-icon-container">
+                        {!! Form::text('name_es', old('name_es'),
+                            ['required',
+                            'id' => 'name_es',
+                            'class' => 'form-control mb-3 mb-lg-0',
+                            'placeholder' => 'Nombre en español'])
+                        !!}
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <label class="col-lg-4 col-form-label required fw-bold fs-6">Nombre (Inglés)</label>
+                    <div class="col-lg-8 fv-row fv-plugins-icon-container">
+                        {!! Form::text('name_en', old('name_en'),
+                            ['required',
+                            'id' => 'name_en',
+                            'class' => 'form-control mb-3 mb-lg-0',
+                            'placeholder' => 'Nombre en inglés'])
+                        !!}
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer d-flex justify-content-end py-6 px-9">
+                <button type="reset" class="btn btn-light me-3 form-modal-dismiss dismiss-create">Descartar</button>
+                <button type="submit" class="btn btn-primary">
+                    <span class="indicator-label">Registrar</span>
+                    <span class="indicator-progress">
+                        <span class="spinner-border spinner-border-md align-middle ms-2"></span>
+                    </span>
+                </button>
+            </div>
+        </div>
+        {!! Form::close() !!}
+    </div>
+</div>
+@endsection
+
+@section('scripts')
+@endsection

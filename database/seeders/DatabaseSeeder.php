@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Category;
 use App\Models\Client;
 use Illuminate\Database\Seeder;
 
@@ -30,6 +31,8 @@ class DatabaseSeeder extends Seeder
             /* FACTORIES */
             ClientSeeder::class,
             AllySeeder::class,
+            CategoryTypeSeeder::class,
+            CategorySeeder::class,
 
             /* LANDING */
             ServiceSeeder::class

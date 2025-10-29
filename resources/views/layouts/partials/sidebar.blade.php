@@ -194,7 +194,50 @@
 					</a>
 				</div>
 				@endcan
+
+				<!-- CATEGORÍAS -->
+				@can('category_view')
+				<div class="menu-item mt-1">
+					<a class="menu-link 
+					{{ request()->routeIs('categories.index') || request()->routeIs('categories.create') || request()->routeIs('categories.edit') ? 'active' : '' }}" 
+					 href="{{ route('categories.index') }}">
+                        <span class="menu-icon">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M22 8.27V4.23C22 2.64 21.36 2 19.77 2H15.73C14.14 2 13.5 2.64 13.5 4.23V8.27C13.5 9.86 14.14 10.5 15.73 10.5H19.77C21.36 10.5 22 9.86 22 8.27Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M10.5 8.52V3.98C10.5 2.57 9.86 2 8.27 2H4.23C2.64 2 2 2.57 2 3.98V8.51C2 9.93 2.64 10.49 4.23 10.49H8.27C9.86 10.5 10.5 9.93 10.5 8.52Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M10.5 19.77V15.73C10.5 14.14 9.86 13.5 8.27 13.5H4.23C2.64 13.5 2 14.14 2 15.73V19.77C2 21.36 2.64 22 4.23 22H8.27C9.86 22 10.5 21.36 10.5 19.77Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M14.5 17.5H20.5" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+								<path d="M17.5 20.5V14.5" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+							</svg>
+
+                        </span>
+                        <span class="menu-title">Categorías</span>
+					</a>
+				</div>
+				@endcan
+
+				<!-- BLOGS -->
+				@can('blog_view')
+				<div class="menu-item mt-1">
+					<a class="menu-link 
+					{{ request()->routeIs('blogs.index') || request()->routeIs('blogs.create') || request()->routeIs('blogs.edit') ? 'active' : '' }}" 
+					 href="{{ route('blogs.index') }}">
+                        <span class="menu-icon">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M8 2V5" stroke="#FFFFFF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M16 2V5" stroke="#FFFFFF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M7 13H15" stroke="#FFFFFF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M7 17H12" stroke="#FFFFFF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M16 3.5C19.33 3.68 21 4.95 21 9.65V15.83C21 19.95 20 22.01 15 22.01H9C4 22.01 3 19.95 3 15.83V9.65C3 4.95 4.67 3.69 8 3.5H16Z" stroke="#FFFFFF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
+
+                        </span>
+                        <span class="menu-title">Blogs</span>
+					</a>
+				</div>
+				@endcan
 		
+				
 			</div>
 		</div>
 	</div>

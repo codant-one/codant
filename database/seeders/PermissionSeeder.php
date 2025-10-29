@@ -46,17 +46,32 @@ class PermissionSeeder extends Seeder
             ['name' => 'client_edit', 'description' => 'Editar clientes', 'custom' => 0],
             ['name' => 'client_delete', 'description' => 'Eliminar clientes', 'custom' => 0],
 
+            // Skills
             ['name' => 'skill_view', 'description' => 'Ver skill', 'custom' => 0],
             ['name' => 'skill_create', 'description' => 'Crear skill', 'custom' => 0],
             ['name' => 'skill_edit', 'description' => 'Editar skill', 'custom' => 0],
             ['name' => 'skill_delete', 'description' => 'Eliminar skill', 'custom' => 0],
 
+            // Aliados
             ['name' => 'ally_view', 'description' => 'Ver aliado', 'custom' => 0],
             ['name' => 'ally_create', 'description' => 'Crear aliado', 'custom' => 0],
             ['name' => 'ally_edit', 'description' => 'Editar aliado', 'custom' => 0],
             ['name' => 'ally_delete', 'description' => 'Eliminar aliado', 'custom' => 0],
 
-        ]; 
+            // Categorias
+            ['name' => 'category_view', 'description' => 'Ver categoria', 'custom' => 0],
+            ['name' => 'category_create', 'description' => 'Crear categoria', 'custom' => 0],
+            ['name' => 'category_edit', 'description' => 'Editar categoria', 'custom' => 0],
+            ['name' => 'category_delete', 'description' => 'Eliminar categoria', 'custom' => 0],
+
+            // Blogs
+            ['name' => 'blog_view', 'description' => 'Ver blog', 'custom' => 0],
+            ['name' => 'blog_create', 'description' => 'Crear blog', 'custom' => 0],
+            ['name' => 'blog_edit', 'description' => 'Editar blog', 'custom' => 0],
+            ['name' => 'blog_delete', 'description' => 'Eliminar blog', 'custom' => 0],
+
+        ];
+
         // Crear o actualizar permisos
         $this->createOrUpdatePermissions($permissions);
 
@@ -121,6 +136,12 @@ class PermissionSeeder extends Seeder
             'ally_view',
             'ally_create',
             'ally_edit',
+            'category_view',
+            'category_create',
+            'category_edit',
+            'blog_view',
+            'blog_create',
+            'blog_edit',
         ];
 
 

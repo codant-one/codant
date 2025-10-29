@@ -14,7 +14,9 @@ use App\Http\Controllers\{
     TestingController,
     ClientController,
     SkillController,
-    AllyController
+    AllyController,
+    CategoryController,
+    BlogController
 };
 
 use App\Http\Controllers\Auth\{
@@ -74,6 +76,8 @@ Route::middleware(['auth:web', '2fa:web'])->prefix('admin')->group(function () {
         'clients'      => ClientController::class,
         'skills'       => SkillController::class,
         'allies'       => AllyController::class,
+        'categories'   => CategoryController::class,
+        'blogs'        => BlogController::class,
     ]);
 
     /* DASHBOARD */
