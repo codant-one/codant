@@ -6,7 +6,10 @@ use Illuminate\Http\Request;
 use App\Models\Blog;
 use App\Models\Category;
 use App\Models\User;
+use App\Models\Skill;
+
 use Carbon\Carbon;
+use Illuminate\Support\Facades\Log;
 
 class BlogController extends Controller
 {
@@ -73,8 +76,9 @@ class BlogController extends Controller
         })->get();
         
         $users = User::all();
+        $skills = Skill::all();
 
-        return view('cruds.blogs.create', compact('categories', 'users'));
+        return view('cruds.blogs.create', compact('categories', 'users', 'skills'));
     }
 
     /**
@@ -96,6 +100,8 @@ class BlogController extends Controller
             'year' => 'required|integer|min:2000|max:' . (date('Y') + 1),
             'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
             'slug' => 'required|string|max:255|unique:blogs,slug',
+            'skills' => 'sometimes|array', 
+            'skills.*' => 'exists:skills,id',
         ]);
 
         $blog = new Blog();
@@ -109,6 +115,10 @@ class BlogController extends Controller
         }
 
         $blog->save();
+
+        if ($request->has('skills')) {
+            $blog->skills()->sync($request->skills);
+        }
 
         return redirect()->route('blogs.index')->with([
             'feedback' => [

@@ -121,6 +121,27 @@
                 </div>
 
                 <div class="row mb-5">
+                    <div class="fv-row col-12">
+                        <label class="fw-bold fs-6 mb-2">Habilidades Relacionadas</label>
+                        <select class="form-select form-select-solid" 
+                                name="skills[]" 
+                                id="skills" 
+                                multiple 
+                                data-control="select2" 
+                                data-close-on-select="false"
+                                data-placeholder="Selecciona las habilidades relacionadas...">
+                            @foreach($skills as $skill)
+                                <option value="{{ $skill->id }}" 
+                                    {{ in_array($skill->id, old('skills', [])) ? 'selected' : '' }}>
+                                    {{ $skill->name_es }}
+                                </option>
+                            @endforeach
+                        </select>
+                        <div class="text-muted fs-7 mt-1">Selecciona una o varias habilidades relacionadas con el blog</div>
+                    </div>
+                </div>
+
+                <div class="row mb-5">
                     <div class="fv-row col-md-6">
                         <label class="fw-bold fs-6 mb-2">Blog Popular</label>
                         <div class="form-check form-check-custom form-check-solid">
@@ -158,4 +179,13 @@
 @endsection
 
 @section('scripts')
+<script>
+    $(document).ready(function() {
+        // Inicializar Select2 para el multiselect de habilidades
+        $('#skills').select2({
+            placeholder: "Selecciona las habilidades relacionadas...",
+            allowClear: true
+        });
+    });
+</script>
 @endsection

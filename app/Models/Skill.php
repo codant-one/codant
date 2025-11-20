@@ -22,4 +22,9 @@ class Skill extends Model
     ];
 
     protected $guarded = [];
+
+    public function blogs()
+    {
+        return $this->belongsToMany(Blog::class, 'skill_blog', 'skill_id', 'blog_id');
+    }
 }
