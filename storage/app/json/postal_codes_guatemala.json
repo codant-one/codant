@@ -1,0 +1,3176 @@
+[
+    {
+        "name": "FLORES",
+        "postal_code": "17001",
+        "province_id": "813",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN JOSE",
+        "postal_code": "17002",
+        "province_id": "813",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN BENITO",
+        "postal_code": "17003",
+        "province_id": "813",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN ANDRES",
+        "postal_code": "17004",
+        "province_id": "813",
+        "country_id": "88"
+    },
+    {
+        "name": "LA LIBERTAD",
+        "postal_code": "17005",
+        "province_id": "813",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN FRANCISCO",
+        "postal_code": "17006",
+        "province_id": "813",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTA ANA",
+        "postal_code": "17007",
+        "province_id": "813",
+        "country_id": "88"
+    },
+    {
+        "name": "DOLORES",
+        "postal_code": "17008",
+        "province_id": "813",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN LUIS",
+        "postal_code": "17009",
+        "province_id": "813",
+        "country_id": "88"
+    },
+    {
+        "name": "SAYAXCHE",
+        "postal_code": "17010",
+        "province_id": "813",
+        "country_id": "88"
+    },
+    {
+        "name": "MELCHOR DE MENCOS",
+        "postal_code": "17011",
+        "province_id": "813",
+        "country_id": "88"
+    },
+    {
+        "name": "POPTUN",
+        "postal_code": "17012",
+        "province_id": "813",
+        "country_id": "88"
+    },
+    {
+        "name": "TIKAL (FLORES)",
+        "postal_code": "17013",
+        "province_id": "813",
+        "country_id": "88"
+    },
+    {
+        "name": "DOS LAGUNAS (FLORES)",
+        "postal_code": "17014",
+        "province_id": "813",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTO TORIBIO (DOLORES)",
+        "postal_code": "17015",
+        "province_id": "813",
+        "country_id": "88"
+    },
+    {
+        "name": "PASO CABALLOS (SAN ANDRES)",
+        "postal_code": "17016",
+        "province_id": "813",
+        "country_id": "88"
+    },
+    {
+        "name": "UAXACTUN (FLORES)",
+        "postal_code": "17017",
+        "province_id": "813",
+        "country_id": "88"
+    },
+    {
+        "name": "CARMELITA (SAN ANDRES)",
+        "postal_code": "17018",
+        "province_id": "813",
+        "country_id": "88"
+    },
+    {
+        "name": "MACHAQUILA (DOLORES)",
+        "postal_code": "17019",
+        "province_id": "813",
+        "country_id": "88"
+    },
+    {
+        "name": "EL CHAL (DOLORES)",
+        "postal_code": "17020",
+        "province_id": "813",
+        "country_id": "88"
+    },
+    {
+        "name": "MACANCHE (DOLORES)",
+        "postal_code": "17021",
+        "province_id": "813",
+        "country_id": "88"
+    },
+    {
+        "name": "EL REMATE (FLORES)",
+        "postal_code": "17022",
+        "province_id": "813",
+        "country_id": "88"
+    },
+    {
+        "name": "LA FELICIDAD (SAYAXCHE)",
+        "postal_code": "17023",
+        "province_id": "813",
+        "country_id": "88"
+    },
+    {
+        "name": "EL NARANJO (LA LIBERTAD)",
+        "postal_code": "17024",
+        "province_id": "813",
+        "country_id": "88"
+    },
+    {
+        "name": "SACPUY (SAN ANDRES)",
+        "postal_code": "17025",
+        "province_id": "813",
+        "country_id": "88"
+    },
+    {
+        "name": "PAXCAMAN (FLORES)",
+        "postal_code": "17026",
+        "province_id": "813",
+        "country_id": "88"
+    },
+    {
+        "name": "LAS CRUCES (LA LIBERTAD)",
+        "postal_code": "17027",
+        "province_id": "813",
+        "country_id": "88"
+    },
+    {
+        "name": "SABANETA (DOLORES)",
+        "postal_code": "17028",
+        "province_id": "813",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTA ELENA",
+        "postal_code": "17029",
+        "province_id": "813",
+        "country_id": "88"
+    },
+    {
+        "name": "HUEHUETENANGO",
+        "postal_code": "13001",
+        "province_id": "809",
+        "country_id": "88"
+    },
+    {
+        "name": "CHIANTLA",
+        "postal_code": "13002",
+        "province_id": "809",
+        "country_id": "88"
+    },
+    {
+        "name": "MALACATANCITO",
+        "postal_code": "13003",
+        "province_id": "809",
+        "country_id": "88"
+    },
+    {
+        "name": "CUILCO",
+        "postal_code": "13004",
+        "province_id": "809",
+        "country_id": "88"
+    },
+    {
+        "name": "NENTON",
+        "postal_code": "13005",
+        "province_id": "809",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN PEDRO NECTA",
+        "postal_code": "13006",
+        "province_id": "809",
+        "country_id": "88"
+    },
+    {
+        "name": "JACALTENANGO",
+        "postal_code": "13007",
+        "province_id": "809",
+        "country_id": "88"
+    },
+    {
+        "name": "SOLOMA",
+        "postal_code": "13008",
+        "province_id": "809",
+        "country_id": "88"
+    },
+    {
+        "name": "IXTAHUACAN",
+        "postal_code": "13009",
+        "province_id": "809",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTA BARBARA",
+        "postal_code": "13010",
+        "province_id": "809",
+        "country_id": "88"
+    },
+    {
+        "name": "LA LIBERTAD",
+        "postal_code": "13011",
+        "province_id": "809",
+        "country_id": "88"
+    },
+    {
+        "name": "LA DEMOCRACIA",
+        "postal_code": "13012",
+        "province_id": "809",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN MIGUEL ACATAN",
+        "postal_code": "13013",
+        "province_id": "809",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN RAFAEL LA INDEPENDENCIA",
+        "postal_code": "13014",
+        "province_id": "809",
+        "country_id": "88"
+    },
+    {
+        "name": "TODOS SANTOS CUCHUMATAN",
+        "postal_code": "13015",
+        "province_id": "809",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN JUAN ATITLAN",
+        "postal_code": "13016",
+        "province_id": "809",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTA EULALIA",
+        "postal_code": "13017",
+        "province_id": "809",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN MATEO IXTATAN",
+        "postal_code": "13018",
+        "province_id": "809",
+        "country_id": "88"
+    },
+    {
+        "name": "COLOTENANGO",
+        "postal_code": "13019",
+        "province_id": "809",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN SEBASTIAN HUEHUETENANGO",
+        "postal_code": "13020",
+        "province_id": "809",
+        "country_id": "88"
+    },
+    {
+        "name": "TECTITAN",
+        "postal_code": "13021",
+        "province_id": "809",
+        "country_id": "88"
+    },
+    {
+        "name": "CONCEPCION",
+        "postal_code": "13022",
+        "province_id": "809",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN JUAN IXCOY",
+        "postal_code": "13023",
+        "province_id": "809",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN ANTONIO HUISTA",
+        "postal_code": "13024",
+        "province_id": "809",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN SEBASTIAN COATAN",
+        "postal_code": "13025",
+        "province_id": "809",
+        "country_id": "88"
+    },
+    {
+        "name": "BARILLAS",
+        "postal_code": "13026",
+        "province_id": "809",
+        "country_id": "88"
+    },
+    {
+        "name": "AGUACATAN",
+        "postal_code": "13027",
+        "province_id": "809",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN RAFAEL PETZAL",
+        "postal_code": "13028",
+        "province_id": "809",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN GASPAR IXCHIL",
+        "postal_code": "13029",
+        "province_id": "809",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTIAGO CHIMALTENANGO",
+        "postal_code": "13030",
+        "province_id": "809",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTA ANA HUISTA",
+        "postal_code": "13031",
+        "province_id": "809",
+        "country_id": "88"
+    },
+    {
+        "name": "GRACIAS A DIOS (NENTON)",
+        "postal_code": "13032",
+        "province_id": "809",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN LORENZO (HUEHUETENANGO)",
+        "postal_code": "13033",
+        "province_id": "809",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN MARTIN CUCHUMATAN (T LOS SANTOS CUCHUMATAN)",
+        "postal_code": "13034",
+        "province_id": "809",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN MARCOS HUISTA (JACALTENANGO)",
+        "postal_code": "13035",
+        "province_id": "809",
+        "country_id": "88"
+    },
+    {
+        "name": "PETATAN (CONCEPCION)",
+        "postal_code": "13036",
+        "province_id": "809",
+        "country_id": "88"
+    },
+    {
+        "name": "PAQUIX (CHIANTLA)",
+        "postal_code": "13037",
+        "province_id": "809",
+        "country_id": "88"
+    },
+    {
+        "name": "MICHICOY (SAN PEDRO NECTA)",
+        "postal_code": "13038",
+        "province_id": "809",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN ANDRES HUISTA (JACALTENANGO)",
+        "postal_code": "13039",
+        "province_id": "809",
+        "country_id": "88"
+    },
+    {
+        "name": "CHALUM (LA LIBERTAD)",
+        "postal_code": "13040",
+        "province_id": "809",
+        "country_id": "88"
+    },
+    {
+        "name": "LA MESILLA",
+        "postal_code": "13041",
+        "province_id": "809",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTA CRUZ DEL QUICHE",
+        "postal_code": "14001",
+        "province_id": "815",
+        "country_id": "88"
+    },
+    {
+        "name": "QUICHE",
+        "postal_code": "14002",
+        "province_id": "815",
+        "country_id": "88"
+    },
+    {
+        "name": "CHINIQUE",
+        "postal_code": "14003",
+        "province_id": "815",
+        "country_id": "88"
+    },
+    {
+        "name": "ZACUALPA",
+        "postal_code": "14004",
+        "province_id": "815",
+        "country_id": "88"
+    },
+    {
+        "name": "CHAJUL",
+        "postal_code": "14005",
+        "province_id": "815",
+        "country_id": "88"
+    },
+    {
+        "name": "CHICHICASTENANGO",
+        "postal_code": "14006",
+        "province_id": "815",
+        "country_id": "88"
+    },
+    {
+        "name": "PATZITE",
+        "postal_code": "14007",
+        "province_id": "815",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN ANTONIO LLOTENANGO",
+        "postal_code": "14008",
+        "province_id": "815",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN PEDRO JOCOPILAS",
+        "postal_code": "14009",
+        "province_id": "815",
+        "country_id": "88"
+    },
+    {
+        "name": "CUNEN",
+        "postal_code": "14010",
+        "province_id": "815",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN JUAN COTZAL",
+        "postal_code": "14011",
+        "province_id": "815",
+        "country_id": "88"
+    },
+    {
+        "name": "JOYABAJ",
+        "postal_code": "14012",
+        "province_id": "815",
+        "country_id": "88"
+    },
+    {
+        "name": "NEBAJ",
+        "postal_code": "14013",
+        "province_id": "815",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN ANDRES SAJCABAJA",
+        "postal_code": "14014",
+        "province_id": "815",
+        "country_id": "88"
+    },
+    {
+        "name": "USPANTAN",
+        "postal_code": "14015",
+        "province_id": "815",
+        "country_id": "88"
+    },
+    {
+        "name": "SACAPULAS",
+        "postal_code": "14016",
+        "province_id": "815",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN BARTOLOME JOCOTENANGO",
+        "postal_code": "14017",
+        "province_id": "815",
+        "country_id": "88"
+    },
+    {
+        "name": "CANILLA",
+        "postal_code": "14018",
+        "province_id": "815",
+        "country_id": "88"
+    },
+    {
+        "name": "PLAYA GRANDE (IXCAN)",
+        "postal_code": "14019",
+        "province_id": "815",
+        "country_id": "88"
+    },
+    {
+        "name": "CHICAMAN",
+        "postal_code": "14020",
+        "province_id": "815",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTA ROSA CHUJUYUB (SANTA CRUZ DELQUICHE)",
+        "postal_code": "14021",
+        "province_id": "815",
+        "country_id": "88"
+    },
+    {
+        "name": "PACHALUM",
+        "postal_code": "14022",
+        "province_id": "815",
+        "country_id": "88"
+    },
+    {
+        "name": "CANTABAL",
+        "postal_code": "14023",
+        "province_id": "815",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN JOSE LA 20 (USPANTAN)",
+        "postal_code": "14024",
+        "province_id": "815",
+        "country_id": "88"
+    },
+    {
+        "name": "XACBAL",
+        "postal_code": "14025",
+        "province_id": "815",
+        "country_id": "88"
+    },
+    {
+        "name": "COBAN",
+        "postal_code": "16001",
+        "province_id": "802",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTA CRUZ VERAPAZ",
+        "postal_code": "16002",
+        "province_id": "802",
+        "country_id": "88"
+    },
+    {
+        "name": "CRISTOBAL VERAPAZ SAN",
+        "postal_code": "16003",
+        "province_id": "802",
+        "country_id": "88"
+    },
+    {
+        "name": "TACTIC",
+        "postal_code": "16004",
+        "province_id": "802",
+        "country_id": "88"
+    },
+    {
+        "name": "TAMAHU",
+        "postal_code": "16005",
+        "province_id": "802",
+        "country_id": "88"
+    },
+    {
+        "name": "TUCURU",
+        "postal_code": "16006",
+        "province_id": "802",
+        "country_id": "88"
+    },
+    {
+        "name": "PANZOS",
+        "postal_code": "16007",
+        "province_id": "802",
+        "country_id": "88"
+    },
+    {
+        "name": "SENAHU",
+        "postal_code": "16008",
+        "province_id": "802",
+        "country_id": "88"
+    },
+    {
+        "name": "PEDRO CARCHA SAN",
+        "postal_code": "16009",
+        "province_id": "802",
+        "country_id": "88"
+    },
+    {
+        "name": "JUAN CHAMENCO SAN",
+        "postal_code": "16010",
+        "province_id": "802",
+        "country_id": "88"
+    },
+    {
+        "name": "LANQUIN",
+        "postal_code": "16011",
+        "province_id": "802",
+        "country_id": "88"
+    },
+    {
+        "name": "CAHABON",
+        "postal_code": "16012",
+        "province_id": "802",
+        "country_id": "88"
+    },
+    {
+        "name": "CHISEC",
+        "postal_code": "16013",
+        "province_id": "802",
+        "country_id": "88"
+    },
+    {
+        "name": "CHAHAL",
+        "postal_code": "16014",
+        "province_id": "802",
+        "country_id": "88"
+    },
+    {
+        "name": "FRAY BARTOLOME DE LAS CASAS",
+        "postal_code": "16015",
+        "province_id": "802",
+        "country_id": "88"
+    },
+    {
+        "name": "LA TINTA (PANZOS)",
+        "postal_code": "16016",
+        "province_id": "802",
+        "country_id": "88"
+    },
+    {
+        "name": "TELAMAN (PANZOS)",
+        "postal_code": "16017",
+        "province_id": "802",
+        "country_id": "88"
+    },
+    {
+        "name": "PANCAJEHE (TUCURU)",
+        "postal_code": "16018",
+        "province_id": "802",
+        "country_id": "88"
+    },
+    {
+        "name": "SEBOL (FRAY BARTOLOME)",
+        "postal_code": "16019",
+        "province_id": "802",
+        "country_id": "88"
+    },
+    {
+        "name": "BOLONCO (FRAY BARTOLOME)",
+        "postal_code": "16020",
+        "province_id": "802",
+        "country_id": "88"
+    },
+    {
+        "name": "CAMPUR (SAN PEDRO CARCHA)",
+        "postal_code": "16021",
+        "province_id": "802",
+        "country_id": "88"
+    },
+    {
+        "name": "LAS CASAS",
+        "postal_code": "16022",
+        "province_id": "802",
+        "country_id": "88"
+    },
+    {
+        "name": "SALACUIN",
+        "postal_code": "16023",
+        "province_id": "802",
+        "country_id": "88"
+    },
+    {
+        "name": "EL ROSARIO",
+        "postal_code": "16024",
+        "province_id": "802",
+        "country_id": "88"
+    },
+    {
+        "name": "LAS CONCHAS",
+        "postal_code": "16025",
+        "province_id": "802",
+        "country_id": "88"
+    },
+    {
+        "name": "RAXRUHA (CHISEC)",
+        "postal_code": "16026",
+        "province_id": "802",
+        "country_id": "88"
+    },
+    {
+        "name": "SALAMA",
+        "postal_code": "15001",
+        "province_id": "803",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN MIGUEL CHICAJ",
+        "postal_code": "15002",
+        "province_id": "803",
+        "country_id": "88"
+    },
+    {
+        "name": "RABINAL",
+        "postal_code": "15003",
+        "province_id": "803",
+        "country_id": "88"
+    },
+    {
+        "name": "CUBULCO",
+        "postal_code": "15004",
+        "province_id": "803",
+        "country_id": "88"
+    },
+    {
+        "name": "GRANADOS",
+        "postal_code": "15005",
+        "province_id": "803",
+        "country_id": "88"
+    },
+    {
+        "name": "EL CHOL",
+        "postal_code": "15006",
+        "province_id": "803",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN JERONIMO",
+        "postal_code": "15007",
+        "province_id": "803",
+        "country_id": "88"
+    },
+    {
+        "name": "PURULHA",
+        "postal_code": "15008",
+        "province_id": "803",
+        "country_id": "88"
+    },
+    {
+        "name": "LOS AMATES (EL CHOL)",
+        "postal_code": "15009",
+        "province_id": "803",
+        "country_id": "88"
+    },
+    {
+        "name": "LA CANOA (SALAMA)",
+        "postal_code": "15010",
+        "province_id": "803",
+        "country_id": "88"
+    },
+    {
+        "name": "SALTIN (GRANADOS)",
+        "postal_code": "15011",
+        "province_id": "803",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN GABRIEL PANTZUY (S MIGUEL CHIHAJ)",
+        "postal_code": "15012",
+        "province_id": "803",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN MARCOS",
+        "postal_code": "12001",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN PEDRO SACATEPEQUEZ",
+        "postal_code": "12002",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN ANTONIO SACATEPEQUEZ",
+        "postal_code": "12003",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "COMITANCILLO",
+        "postal_code": "12004",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN MIGUEL IXTAGUACAN",
+        "postal_code": "12005",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "CONCEPCION TUTUAPA",
+        "postal_code": "12006",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "TANACA",
+        "postal_code": "12007",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "SIBINAL",
+        "postal_code": "12008",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "TAJUMULCO",
+        "postal_code": "12009",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "TEJUTLA",
+        "postal_code": "12010",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN RAFAEL PIE DE LA CUESTA",
+        "postal_code": "12011",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "NUEVO PROGRESO",
+        "postal_code": "12012",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "EL TUMBADOR",
+        "postal_code": "12013",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "EL RODEO",
+        "postal_code": "12014",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "MALACATAN",
+        "postal_code": "12015",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "CATARINA",
+        "postal_code": "12016",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "TOCUN UMAN",
+        "postal_code": "12017",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "OCOS",
+        "postal_code": "12018",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN PABLO",
+        "postal_code": "12019",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "EL QUETZAL",
+        "postal_code": "12020",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "LA REFORMA",
+        "postal_code": "12021",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "PAJAPITA",
+        "postal_code": "12022",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "IXCHIGUAN",
+        "postal_code": "12023",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN JOSE OJOTEPAN",
+        "postal_code": "12024",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN CRITOBAL CUCHO",
+        "postal_code": "12025",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "SIPACANA",
+        "postal_code": "12026",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "ESQUIPULAS PALO GORDO",
+        "postal_code": "12027",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "RIO BLANCO",
+        "postal_code": "12028",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN LORENZO",
+        "postal_code": "12029",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "EL CARMEN (MALACATAN)",
+        "postal_code": "12030",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "ZANJON SAN LORENZO (TECUN UMAN)",
+        "postal_code": "12031",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN JERONIMO (EL TUMBEDOR)",
+        "postal_code": "12032",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "SRCHIL (SAN MARCOS)",
+        "postal_code": "12033",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "LA DEMOCRACIA (EL TUMBADOR)",
+        "postal_code": "12034",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN FRANCISCO (EL RODEO)",
+        "postal_code": "12035",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "EL AMPARO (EL TUMBADOR)",
+        "postal_code": "12036",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN SEBASTIAN (SAN MARCOS)",
+        "postal_code": "12037",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "LOS LIMINES (OCOS)",
+        "postal_code": "12038",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "LA BLANCA (OCOS)",
+        "postal_code": "12039",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "EL CICLO (EL TUMBADOR)",
+        "postal_code": "12040",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN JOSE IXTAL (NUEVO PROGRESO)",
+        "postal_code": "12041",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "PLATANARES(OCOS)",
+        "postal_code": "12042",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "LAS DELICIAS (EL TUMBADOR)",
+        "postal_code": "12043",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "CALAPTE (IXCHIGUAN)",
+        "postal_code": "12044",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "TOCAHE (SAN PABLO)",
+        "postal_code": "12045",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "LA CONQUISTA (NUEVO PROGRESO)",
+        "postal_code": "12046",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "CHAMPOLLAP (SAN PEDRO SAC)",
+        "postal_code": "12047",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "PIEDRA GRANDE (SAN PEDRO GRANDE)",
+        "postal_code": "12048",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTA LUICIA IXTACAMAL (SAN MARCOS)",
+        "postal_code": "12049",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "EL SITIO (CATARINA)",
+        "postal_code": "12050",
+        "province_id": "818",
+        "country_id": "88"
+    },
+    {
+        "name": "QUETZALTENANGO",
+        "postal_code": "09001",
+        "province_id": "814",
+        "country_id": "88"
+    },
+    {
+        "name": "SALCAJA",
+        "postal_code": "09002",
+        "province_id": "814",
+        "country_id": "88"
+    },
+    {
+        "name": "OLINTEPEQUE",
+        "postal_code": "09003",
+        "province_id": "814",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN CARLOS SIJA",
+        "postal_code": "09004",
+        "province_id": "814",
+        "country_id": "88"
+    },
+    {
+        "name": "SIBILIA",
+        "postal_code": "09005",
+        "province_id": "814",
+        "country_id": "88"
+    },
+    {
+        "name": "CABRICAN",
+        "postal_code": "09006",
+        "province_id": "814",
+        "country_id": "88"
+    },
+    {
+        "name": "CAJOLA",
+        "postal_code": "09007",
+        "province_id": "814",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN MIGUEL SIGUILA",
+        "postal_code": "09008",
+        "province_id": "814",
+        "country_id": "88"
+    },
+    {
+        "name": "OSTUNCALCO",
+        "postal_code": "09009",
+        "province_id": "814",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN MATEO",
+        "postal_code": "09010",
+        "province_id": "814",
+        "country_id": "88"
+    },
+    {
+        "name": "CONCEPCION CHIQUIRICHAPA",
+        "postal_code": "09011",
+        "province_id": "814",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN MARTIN SACATEPEQUEZ",
+        "postal_code": "09012",
+        "province_id": "814",
+        "country_id": "88"
+    },
+    {
+        "name": "ALMOLONGA",
+        "postal_code": "09013",
+        "province_id": "814",
+        "country_id": "88"
+    },
+    {
+        "name": "CANTEL",
+        "postal_code": "09014",
+        "province_id": "814",
+        "country_id": "88"
+    },
+    {
+        "name": "HUITLA",
+        "postal_code": "09015",
+        "province_id": "814",
+        "country_id": "88"
+    },
+    {
+        "name": "ZUNIL",
+        "postal_code": "09016",
+        "province_id": "814",
+        "country_id": "88"
+    },
+    {
+        "name": "COLOMBA",
+        "postal_code": "09017",
+        "province_id": "814",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN FRANCISCO LA UNION",
+        "postal_code": "09018",
+        "province_id": "814",
+        "country_id": "88"
+    },
+    {
+        "name": "EL PALMAR",
+        "postal_code": "09019",
+        "province_id": "814",
+        "country_id": "88"
+    },
+    {
+        "name": "COATEPEQUE",
+        "postal_code": "09020",
+        "province_id": "814",
+        "country_id": "88"
+    },
+    {
+        "name": "GENOVA",
+        "postal_code": "09021",
+        "province_id": "814",
+        "country_id": "88"
+    },
+    {
+        "name": "FLORES COSTA CUCA",
+        "postal_code": "09022",
+        "province_id": "814",
+        "country_id": "88"
+    },
+    {
+        "name": "LA ESPERANZA",
+        "postal_code": "09023",
+        "province_id": "814",
+        "country_id": "88"
+    },
+    {
+        "name": "PALESTINA DE LOS ALTOS",
+        "postal_code": "09024",
+        "province_id": "814",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTA MARIA DE JESUS (ZUNIL)",
+        "postal_code": "09025",
+        "province_id": "814",
+        "country_id": "88"
+    },
+    {
+        "name": "CHIQUIBAL (SAN CARLOS SIJA)",
+        "postal_code": "09026",
+        "province_id": "814",
+        "country_id": "88"
+    },
+    {
+        "name": "LAS PALMAS COATEPEQUE",
+        "postal_code": "09027",
+        "province_id": "814",
+        "country_id": "88"
+    },
+    {
+        "name": "CUICALBA(SIBILIA)",
+        "postal_code": "09028",
+        "province_id": "814",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN JOSE CHIQUILAJA(QUETZALTENANGO)",
+        "postal_code": "09029",
+        "province_id": "814",
+        "country_id": "88"
+    },
+    {
+        "name": "EL EDEN (PALESTINA DE LOS ALTOS)",
+        "postal_code": "09030",
+        "province_id": "814",
+        "country_id": "88"
+    },
+    {
+        "name": "CHUATUJ (SAN CARLOS SIJA)",
+        "postal_code": "09031",
+        "province_id": "814",
+        "country_id": "88"
+    },
+    {
+        "name": "EL TAMBOR (EL PALMAR)",
+        "postal_code": "09032",
+        "province_id": "814",
+        "country_id": "88"
+    },
+    {
+        "name": "LAS MERCEDES (COLOMBA)",
+        "postal_code": "09033",
+        "province_id": "814",
+        "country_id": "88"
+    },
+    {
+        "name": "PALMIRA (COLOMBA)",
+        "postal_code": "09034",
+        "province_id": "814",
+        "country_id": "88"
+    },
+    {
+        "name": "TOTONICAPAN",
+        "postal_code": "08001",
+        "province_id": "822",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN CRISTOBAL TOTONICAPAN",
+        "postal_code": "08002",
+        "province_id": "822",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN FRANCISCO EL ALTO",
+        "postal_code": "08003",
+        "province_id": "822",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN ANDRES XECUL",
+        "postal_code": "08004",
+        "province_id": "822",
+        "country_id": "88"
+    },
+    {
+        "name": "MOMOSTENANGO",
+        "postal_code": "08005",
+        "province_id": "822",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTA MARIA CHIQUIMULA",
+        "postal_code": "08006",
+        "province_id": "822",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTA LUCIA LA REFORMA",
+        "postal_code": "08007",
+        "province_id": "822",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN BARTOLO",
+        "postal_code": "08008",
+        "province_id": "822",
+        "country_id": "88"
+    },
+    {
+        "name": "SOLOLA",
+        "postal_code": "07001",
+        "province_id": "820",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN JOSE CHACAYA",
+        "postal_code": "07002",
+        "province_id": "820",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTA MARIA VISITACION",
+        "postal_code": "07003",
+        "province_id": "820",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTA LUCIA UTATLAN",
+        "postal_code": "07004",
+        "province_id": "820",
+        "country_id": "88"
+    },
+    {
+        "name": "NAHUALA",
+        "postal_code": "07005",
+        "province_id": "820",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTA CATARINA IXTAHUACAN",
+        "postal_code": "07006",
+        "province_id": "820",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTA CLARA LA LAGUNA",
+        "postal_code": "07007",
+        "province_id": "820",
+        "country_id": "88"
+    },
+    {
+        "name": "CONCEPCION",
+        "postal_code": "07008",
+        "province_id": "820",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN ANDRES SEMETABAJ",
+        "postal_code": "07009",
+        "province_id": "820",
+        "country_id": "88"
+    },
+    {
+        "name": "PANAJACHEL",
+        "postal_code": "07010",
+        "province_id": "820",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTA CATARINA PALOPO",
+        "postal_code": "07011",
+        "province_id": "820",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN ANTONIO PALOPO",
+        "postal_code": "07012",
+        "province_id": "820",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN LUCAS TOLIMAN",
+        "postal_code": "07013",
+        "province_id": "820",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTA CRUZ LA LAGUNA",
+        "postal_code": "07014",
+        "province_id": "820",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN PABLO LA LAGUNA",
+        "postal_code": "07015",
+        "province_id": "820",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN MARCOS LA LAGUNA",
+        "postal_code": "07016",
+        "province_id": "820",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN JUAN LA LAGUNA",
+        "postal_code": "07017",
+        "province_id": "820",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN PEDRO LA LAGUNA",
+        "postal_code": "07018",
+        "province_id": "820",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTIAGO ATITLAN",
+        "postal_code": "07019",
+        "province_id": "820",
+        "country_id": "88"
+    },
+    {
+        "name": "LOS ENCUENTROS SOLOLA",
+        "postal_code": "07020",
+        "province_id": "820",
+        "country_id": "88"
+    },
+    {
+        "name": "GODINEZ (SAN ANDRES SEMETABAJ)",
+        "postal_code": "07021",
+        "province_id": "820",
+        "country_id": "88"
+    },
+    {
+        "name": "AGUA ESCONDIDA (SAN ANTONIO PALOPO)",
+        "postal_code": "07022",
+        "province_id": "820",
+        "country_id": "88"
+    },
+    {
+        "name": "ARGUETA (SOLOLA)",
+        "postal_code": "07023",
+        "province_id": "820",
+        "country_id": "88"
+    },
+    {
+        "name": "PIXABAJ (SOLOLA)",
+        "postal_code": "07024",
+        "province_id": "820",
+        "country_id": "88"
+    },
+    {
+        "name": "RETALHULEU",
+        "postal_code": "11001",
+        "province_id": "816",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN SABASTIAN",
+        "postal_code": "11002",
+        "province_id": "816",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTA CRUZ MULUA",
+        "postal_code": "11003",
+        "province_id": "816",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN MARTIN ZAPOTITLAN",
+        "postal_code": "11004",
+        "province_id": "816",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN FELIPE",
+        "postal_code": "11005",
+        "province_id": "816",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN ANDRES VILLA SECA",
+        "postal_code": "11006",
+        "province_id": "816",
+        "country_id": "88"
+    },
+    {
+        "name": "CHAMPERICO",
+        "postal_code": "11007",
+        "province_id": "816",
+        "country_id": "88"
+    },
+    {
+        "name": "NUEVO SAN CARLOS",
+        "postal_code": "11008",
+        "province_id": "816",
+        "country_id": "88"
+    },
+    {
+        "name": "EL ASINTAL",
+        "postal_code": "11009",
+        "province_id": "816",
+        "country_id": "88"
+    },
+    {
+        "name": "CABALLO BLANCO (RETALHULEU)",
+        "postal_code": "11010",
+        "province_id": "816",
+        "country_id": "88"
+    },
+    {
+        "name": "CANDELARIA XOLHUITZ (NUEVO SAN CARLOS)",
+        "postal_code": "11011",
+        "province_id": "816",
+        "country_id": "88"
+    },
+    {
+        "name": "SINABA (EL ASINTAL)",
+        "postal_code": "11012",
+        "province_id": "816",
+        "country_id": "88"
+    },
+    {
+        "name": "EL XAB (EL ASINTAL)",
+        "postal_code": "11013",
+        "province_id": "816",
+        "country_id": "88"
+    },
+    {
+        "name": "LA MAQUINA (SAN ANDRES VILLA SECA)",
+        "postal_code": "11014",
+        "province_id": "816",
+        "country_id": "88"
+    },
+    {
+        "name": "MAZATENANGO",
+        "postal_code": "10001",
+        "province_id": "821",
+        "country_id": "88"
+    },
+    {
+        "name": "CUYOTENANGO",
+        "postal_code": "10002",
+        "province_id": "821",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN FRANCISCO ZAPOTITLAN",
+        "postal_code": "10003",
+        "province_id": "821",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN BERNARDINO",
+        "postal_code": "10004",
+        "province_id": "821",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN JOSE EL IDOLO",
+        "postal_code": "10005",
+        "province_id": "821",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTO DOMINGO SUCHITEPEQUEZ",
+        "postal_code": "10006",
+        "province_id": "821",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN LORENZO",
+        "postal_code": "10007",
+        "province_id": "821",
+        "country_id": "88"
+    },
+    {
+        "name": "SAMAYAC",
+        "postal_code": "10008",
+        "province_id": "821",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN PABLO JOCOPILAS",
+        "postal_code": "10009",
+        "province_id": "821",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN ANTONIO SUCHITEPEQUEZ",
+        "postal_code": "10010",
+        "province_id": "821",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN MIGUEL PANAN",
+        "postal_code": "10011",
+        "province_id": "821",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN GABRIEL",
+        "postal_code": "10012",
+        "province_id": "821",
+        "country_id": "88"
+    },
+    {
+        "name": "CHICACAO",
+        "postal_code": "10013",
+        "province_id": "821",
+        "country_id": "88"
+    },
+    {
+        "name": "PATULUL",
+        "postal_code": "10014",
+        "province_id": "821",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTA BARBARA",
+        "postal_code": "10015",
+        "province_id": "821",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN JUAN BAUTISTA",
+        "postal_code": "10016",
+        "province_id": "821",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTO TOMAS LA UNION",
+        "postal_code": "10017",
+        "province_id": "821",
+        "country_id": "88"
+    },
+    {
+        "name": "ZUNULITO",
+        "postal_code": "10018",
+        "province_id": "821",
+        "country_id": "88"
+    },
+    {
+        "name": "PUEBLO NUEVO",
+        "postal_code": "10019",
+        "province_id": "821",
+        "country_id": "88"
+    },
+    {
+        "name": "RIO BRAVO",
+        "postal_code": "10020",
+        "province_id": "821",
+        "country_id": "88"
+    },
+    {
+        "name": "COCALES (PATUTUL)",
+        "postal_code": "10021",
+        "province_id": "821",
+        "country_id": "88"
+    },
+    {
+        "name": "CHOCOLA(SAN PABLO JOCOPILAS)",
+        "postal_code": "10022",
+        "province_id": "821",
+        "country_id": "88"
+    },
+    {
+        "name": "TAHUEXCO (MAZATENANGO)",
+        "postal_code": "10023",
+        "province_id": "821",
+        "country_id": "88"
+    },
+    {
+        "name": "GUATALON (RIO BRAVO)",
+        "postal_code": "10024",
+        "province_id": "821",
+        "country_id": "88"
+    },
+    {
+        "name": "PALO GORDO (SAN ANTONIO SUCHI)",
+        "postal_code": "10025",
+        "province_id": "821",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN RAFAEL PANAN (SANTA BARBARA)",
+        "postal_code": "10026",
+        "province_id": "821",
+        "country_id": "88"
+    },
+    {
+        "name": "BRACITOS (MAZATENANGO)",
+        "postal_code": "10027",
+        "province_id": "821",
+        "country_id": "88"
+    },
+    {
+        "name": "BOLIVIA (SANTO DOMINGO SUCHI)",
+        "postal_code": "10028",
+        "province_id": "821",
+        "country_id": "88"
+    },
+    {
+        "name": "MONTERREY (SANTO DOMINGO SUCHI)",
+        "postal_code": "10029",
+        "province_id": "821",
+        "country_id": "88"
+    },
+    {
+        "name": "LA MAQUINA (CUYOTENANGO)",
+        "postal_code": "10030",
+        "province_id": "821",
+        "country_id": "88"
+    },
+    {
+        "name": "CHIMALTENANGO",
+        "postal_code": "04001",
+        "province_id": "804",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN JOSE POAQUIL",
+        "postal_code": "04002",
+        "province_id": "804",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN MARTIN JILOTEPEQUE",
+        "postal_code": "04003",
+        "province_id": "804",
+        "country_id": "88"
+    },
+    {
+        "name": "COMALAPA",
+        "postal_code": "04004",
+        "province_id": "804",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTA APOLONIA",
+        "postal_code": "04005",
+        "province_id": "804",
+        "country_id": "88"
+    },
+    {
+        "name": "TECPAN GUATEMALA",
+        "postal_code": "04006",
+        "province_id": "804",
+        "country_id": "88"
+    },
+    {
+        "name": "PATZUN",
+        "postal_code": "04007",
+        "province_id": "804",
+        "country_id": "88"
+    },
+    {
+        "name": "POCHUTA",
+        "postal_code": "04008",
+        "province_id": "804",
+        "country_id": "88"
+    },
+    {
+        "name": "PATZICIA",
+        "postal_code": "04009",
+        "province_id": "804",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTA CRUZ BALANYA",
+        "postal_code": "04010",
+        "province_id": "804",
+        "country_id": "88"
+    },
+    {
+        "name": "ACATENANGO",
+        "postal_code": "04011",
+        "province_id": "804",
+        "country_id": "88"
+    },
+    {
+        "name": "YEPOCAPA",
+        "postal_code": "04012",
+        "province_id": "804",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN ANDRES ITZAPA",
+        "postal_code": "04013",
+        "province_id": "804",
+        "country_id": "88"
+    },
+    {
+        "name": "PARRAMOS",
+        "postal_code": "04014",
+        "province_id": "804",
+        "country_id": "88"
+    },
+    {
+        "name": "ZARAGOZA",
+        "postal_code": "04015",
+        "province_id": "804",
+        "country_id": "88"
+    },
+    {
+        "name": "EL TEJAR",
+        "postal_code": "04016",
+        "province_id": "804",
+        "country_id": "88"
+    },
+    {
+        "name": "ANTIGUA GUATEMALA",
+        "postal_code": "03001",
+        "province_id": "817",
+        "country_id": "88"
+    },
+    {
+        "name": "JOCOTENANGO",
+        "postal_code": "03002",
+        "province_id": "817",
+        "country_id": "88"
+    },
+    {
+        "name": "PASTORES",
+        "postal_code": "03003",
+        "province_id": "817",
+        "country_id": "88"
+    },
+    {
+        "name": "SUMPANGO",
+        "postal_code": "03004",
+        "province_id": "817",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTO DOMINGO XENACOJ",
+        "postal_code": "03005",
+        "province_id": "817",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTIAGO SACATEPEQUEZ",
+        "postal_code": "03006",
+        "province_id": "817",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN BARTOLOME MILPAS ALTAS",
+        "postal_code": "03007",
+        "province_id": "817",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN LUCAS SACATEPEQUEZ",
+        "postal_code": "03008",
+        "province_id": "817",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTA LUCIA MILPAS ALTAS",
+        "postal_code": "03009",
+        "province_id": "817",
+        "country_id": "88"
+    },
+    {
+        "name": "MAGDALENA MILPAS ALTAS",
+        "postal_code": "03010",
+        "province_id": "817",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTA MARIA DE JESUS",
+        "postal_code": "03011",
+        "province_id": "817",
+        "country_id": "88"
+    },
+    {
+        "name": "CIUDAD VIEJA",
+        "postal_code": "03012",
+        "province_id": "817",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN MIGUEL DUEÑAS",
+        "postal_code": "03013",
+        "province_id": "817",
+        "country_id": "88"
+    },
+    {
+        "name": "ALOTENANGO",
+        "postal_code": "03014",
+        "province_id": "817",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN ANTONIO AGUAS CALIENTES",
+        "postal_code": "03015",
+        "province_id": "817",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTA CATARINA BARAHONA",
+        "postal_code": "03016",
+        "province_id": "817",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTA MARIA CAUQUE (SANTIAGO SACATEPEQUEZ)",
+        "postal_code": "03017",
+        "province_id": "817",
+        "country_id": "88"
+    },
+    {
+        "name": "ZONA 1",
+        "postal_code": "01001",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "ZONA 2",
+        "postal_code": "01002",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "ZONA 3",
+        "postal_code": "01003",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "ZONA 4",
+        "postal_code": "01004",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "ZONA 5",
+        "postal_code": "01005",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "ZONA 6",
+        "postal_code": "01006",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "ZONA 7",
+        "postal_code": "01007",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "ZONA 8",
+        "postal_code": "01008",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "ZONA 9",
+        "postal_code": "01009",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "ZONA 10",
+        "postal_code": "01010",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "ZONA 11",
+        "postal_code": "01011",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "ZONA 12",
+        "postal_code": "01012",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "ZONA 13",
+        "postal_code": "01013",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "ZONA 14",
+        "postal_code": "01014",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "ZONA 15",
+        "postal_code": "01015",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "ZONA 16",
+        "postal_code": "01016",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "ZONA 17",
+        "postal_code": "01017",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "ZONA 18",
+        "postal_code": "01018",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "ZONA 19",
+        "postal_code": "01019",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "ZONA 21",
+        "postal_code": "01021",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "GUATEMALA",
+        "postal_code": "01000",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTA CATARINA PINULA",
+        "postal_code": "01051",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN JOSE PINULA",
+        "postal_code": "01052",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN JOSE DEL GOLFO",
+        "postal_code": "01053",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "PALENCIA",
+        "postal_code": "01054",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "CHINAUTLA",
+        "postal_code": "01055",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN PEDRO AYAMPUC",
+        "postal_code": "01056",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "MIXCO",
+        "postal_code": "01057",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN PEDRO SACATEPEQUEZ",
+        "postal_code": "01058",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN JUAN SACATEPEQUEZ",
+        "postal_code": "01059",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN RAYMUNDO",
+        "postal_code": "01060",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "CHUARRANCHO",
+        "postal_code": "01061",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "FRAIJANES",
+        "postal_code": "01062",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "AMATITLAN",
+        "postal_code": "01063",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "VILLA NUEVA",
+        "postal_code": "01064",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "VILLA CANALES",
+        "postal_code": "01065",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN MIGUEL PETAPA",
+        "postal_code": "01066",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "CANALITOS (ZONA 24)",
+        "postal_code": "01067",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "EL FISCAL (PALENCIA)",
+        "postal_code": "01068",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "BOCA DEL MONTE (VILLA CANALES)",
+        "postal_code": "01069",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "VUELTA GRANDE (SAN RAYMUNDO)",
+        "postal_code": "01070",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "TRAPICHE GRANDE (CHUARRANCHO)",
+        "postal_code": "01071",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTA ELENA BARILLAS (VILLA CANALES)",
+        "postal_code": "01072",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "PUERTA PARADA (SANTA CATARINA PINULA)",
+        "postal_code": "01073",
+        "province_id": "808",
+        "country_id": "88"
+    },
+    {
+        "name": "ESCUINTLA",
+        "postal_code": "05001",
+        "province_id": "807",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTA LUCIA COTZUMALGUAPA",
+        "postal_code": "05002",
+        "province_id": "807",
+        "country_id": "88"
+    },
+    {
+        "name": "LA DEMOCRACIA",
+        "postal_code": "05003",
+        "province_id": "807",
+        "country_id": "88"
+    },
+    {
+        "name": "SIQUINALA",
+        "postal_code": "05004",
+        "province_id": "807",
+        "country_id": "88"
+    },
+    {
+        "name": "MASAGUA",
+        "postal_code": "05005",
+        "province_id": "807",
+        "country_id": "88"
+    },
+    {
+        "name": "TIQUISATE",
+        "postal_code": "05006",
+        "province_id": "807",
+        "country_id": "88"
+    },
+    {
+        "name": "LA GOMERA",
+        "postal_code": "05007",
+        "province_id": "807",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN JOSE",
+        "postal_code": "05009",
+        "province_id": "807",
+        "country_id": "88"
+    },
+    {
+        "name": "IZTAPA",
+        "postal_code": "05010",
+        "province_id": "807",
+        "country_id": "88"
+    },
+    {
+        "name": "PALIN",
+        "postal_code": "05011",
+        "province_id": "807",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN VICENTE PACAYA",
+        "postal_code": "05012",
+        "province_id": "807",
+        "country_id": "88"
+    },
+    {
+        "name": "NUEVA CONCEPCION",
+        "postal_code": "05013",
+        "province_id": "807",
+        "country_id": "88"
+    },
+    {
+        "name": "OBERO (MASAGUA)",
+        "postal_code": "05014",
+        "province_id": "807",
+        "country_id": "88"
+    },
+    {
+        "name": "BRITO (GUANAGAZAPA)",
+        "postal_code": "05015",
+        "province_id": "807",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTA ANA MIXTAN (NUEVA CONCEPCION)",
+        "postal_code": "05016",
+        "province_id": "807",
+        "country_id": "88"
+    },
+    {
+        "name": "EL NARANJO (MASAGUA)",
+        "postal_code": "05017",
+        "province_id": "807",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN ANDRES OSUNA (ESCUINTLA)",
+        "postal_code": "05018",
+        "province_id": "807",
+        "country_id": "88"
+    },
+    {
+        "name": "CUYUTA (MASAGUA)",
+        "postal_code": "05019",
+        "province_id": "807",
+        "country_id": "88"
+    },
+    {
+        "name": "EL PORVENIR (TIQUISATE)",
+        "postal_code": "05020",
+        "province_id": "807",
+        "country_id": "88"
+    },
+    {
+        "name": "SIPACATE (LA GOMERA)",
+        "postal_code": "05021",
+        "province_id": "807",
+        "country_id": "88"
+    },
+    {
+        "name": "CUILAPA",
+        "postal_code": "06001",
+        "province_id": "819",
+        "country_id": "88"
+    },
+    {
+        "name": "BARBERENA",
+        "postal_code": "06002",
+        "province_id": "819",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTA ROSA DE LIMA",
+        "postal_code": "06003",
+        "province_id": "819",
+        "country_id": "88"
+    },
+    {
+        "name": "CASILLAS",
+        "postal_code": "06004",
+        "province_id": "819",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN RAFAEL LAS FLORES",
+        "postal_code": "06005",
+        "province_id": "819",
+        "country_id": "88"
+    },
+    {
+        "name": "ORATORIO",
+        "postal_code": "06006",
+        "province_id": "819",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN JUAN TECUACO",
+        "postal_code": "06007",
+        "province_id": "819",
+        "country_id": "88"
+    },
+    {
+        "name": "CHIQUIMULILLA",
+        "postal_code": "06008",
+        "province_id": "819",
+        "country_id": "88"
+    },
+    {
+        "name": "TAXISCO",
+        "postal_code": "06009",
+        "province_id": "819",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTA MARIA IXHUATAN",
+        "postal_code": "06010",
+        "province_id": "819",
+        "country_id": "88"
+    },
+    {
+        "name": "GUAZACAPAN",
+        "postal_code": "06011",
+        "province_id": "819",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTA CRUZ NARANJO",
+        "postal_code": "06012",
+        "province_id": "819",
+        "country_id": "88"
+    },
+    {
+        "name": "PUEBLO NUEVO VIÑAS",
+        "postal_code": "06013",
+        "province_id": "819",
+        "country_id": "88"
+    },
+    {
+        "name": "NUEVA SANTA ROSA",
+        "postal_code": "06014",
+        "province_id": "819",
+        "country_id": "88"
+    },
+    {
+        "name": "EL AHUMADO (CHIQUIMULILLA)",
+        "postal_code": "06015",
+        "province_id": "819",
+        "country_id": "88"
+    },
+    {
+        "name": "LOS CERRITOS (CHIQUIMULILLA)",
+        "postal_code": "06016",
+        "province_id": "819",
+        "country_id": "88"
+    },
+    {
+        "name": "CASAS VIEJAS (CHIQUIMULILLA)",
+        "postal_code": "06017",
+        "province_id": "819",
+        "country_id": "88"
+    },
+    {
+        "name": "AYARZA(CASILLAS)",
+        "postal_code": "06018",
+        "province_id": "819",
+        "country_id": "88"
+    },
+    {
+        "name": "EL MOLINO (CUILAPA)",
+        "postal_code": "06019",
+        "province_id": "819",
+        "country_id": "88"
+    },
+    {
+        "name": "NANCINTA (CHIQUIMULILLA)",
+        "postal_code": "06020",
+        "province_id": "819",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN MIGUEL AROCHE (CHUIQUIMULILLA)",
+        "postal_code": "06021",
+        "province_id": "819",
+        "country_id": "88"
+    },
+    {
+        "name": "LOS ESCLAVOS (CUILAPA)",
+        "postal_code": "06022",
+        "province_id": "819",
+        "country_id": "88"
+    },
+    {
+        "name": "EL SERINAL (BARBERENA)",
+        "postal_code": "06023",
+        "province_id": "819",
+        "country_id": "88"
+    },
+    {
+        "name": "MONTERICO (TAXISCO)",
+        "postal_code": "06024",
+        "province_id": "819",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN JUAN DE ARANA (CUILAPA)",
+        "postal_code": "06025",
+        "province_id": "819",
+        "country_id": "88"
+    },
+    {
+        "name": "EL RINCONCITO (SANTA ROSA DE LIMA)",
+        "postal_code": "06026",
+        "province_id": "819",
+        "country_id": "88"
+    },
+    {
+        "name": "CERRO GORDO (SANTA ROSA DE LIMA)",
+        "postal_code": "06027",
+        "province_id": "819",
+        "country_id": "88"
+    },
+    {
+        "name": "JUTIAPA",
+        "postal_code": "22001",
+        "province_id": "812",
+        "country_id": "88"
+    },
+    {
+        "name": "EL PROGRESO",
+        "postal_code": "22002",
+        "province_id": "812",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTA CATARINA MITA",
+        "postal_code": "22003",
+        "province_id": "812",
+        "country_id": "88"
+    },
+    {
+        "name": "AGUA BLANCA",
+        "postal_code": "22004",
+        "province_id": "812",
+        "country_id": "88"
+    },
+    {
+        "name": "ASUNCION MITA",
+        "postal_code": "22005",
+        "province_id": "812",
+        "country_id": "88"
+    },
+    {
+        "name": "YUPILTEPEQUE",
+        "postal_code": "22006",
+        "province_id": "812",
+        "country_id": "88"
+    },
+    {
+        "name": "ATESCATEMPA",
+        "postal_code": "22007",
+        "province_id": "812",
+        "country_id": "88"
+    },
+    {
+        "name": "JERES",
+        "postal_code": "22008",
+        "province_id": "812",
+        "country_id": "88"
+    },
+    {
+        "name": "EL ADELANTO",
+        "postal_code": "22009",
+        "province_id": "812",
+        "country_id": "88"
+    },
+    {
+        "name": "ZAPOTITLAN",
+        "postal_code": "22010",
+        "province_id": "812",
+        "country_id": "88"
+    },
+    {
+        "name": "COMAPA",
+        "postal_code": "22011",
+        "province_id": "812",
+        "country_id": "88"
+    },
+    {
+        "name": "JALPATAGUA",
+        "postal_code": "22012",
+        "province_id": "812",
+        "country_id": "88"
+    },
+    {
+        "name": "CONGUANCO",
+        "postal_code": "22013",
+        "province_id": "812",
+        "country_id": "88"
+    },
+    {
+        "name": "MOYUTA",
+        "postal_code": "22014",
+        "province_id": "812",
+        "country_id": "88"
+    },
+    {
+        "name": "PASACO",
+        "postal_code": "22015",
+        "province_id": "812",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN JOSE ACATEMPA",
+        "postal_code": "22016",
+        "province_id": "812",
+        "country_id": "88"
+    },
+    {
+        "name": "QUESADA",
+        "postal_code": "22017",
+        "province_id": "812",
+        "country_id": "88"
+    },
+    {
+        "name": "CIUDAD PEDRO DE ALVARADO (MOYUTA)",
+        "postal_code": "22018",
+        "province_id": "812",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN CRISTOBAL FRONTERA (ATESCATEMPA)",
+        "postal_code": "22019",
+        "province_id": "812",
+        "country_id": "88"
+    },
+    {
+        "name": "VALLE NUEVO JALPATAGUA",
+        "postal_code": "22020",
+        "province_id": "812",
+        "country_id": "88"
+    },
+    {
+        "name": "RIO DE PAZ",
+        "postal_code": "22021",
+        "province_id": "812",
+        "country_id": "88"
+    },
+    {
+        "name": "HORCONES (STA CATARINA MITA)",
+        "postal_code": "22022",
+        "province_id": "812",
+        "country_id": "88"
+    },
+    {
+        "name": "EL OVEJERO (EL PROGRESO)",
+        "postal_code": "22023",
+        "province_id": "812",
+        "country_id": "88"
+    },
+    {
+        "name": "CONTEPEQUE (ATESCATEMPA)",
+        "postal_code": "22024",
+        "province_id": "812",
+        "country_id": "88"
+    },
+    {
+        "name": "LA ESMERALDA JEREZ",
+        "postal_code": "22025",
+        "province_id": "812",
+        "country_id": "88"
+    },
+    {
+        "name": "HORCONES (ATESCATEMPA)",
+        "postal_code": "22026",
+        "province_id": "812",
+        "country_id": "88"
+    },
+    {
+        "name": "TIUCAL (ASUNCION MITA)",
+        "postal_code": "22027",
+        "province_id": "812",
+        "country_id": "88"
+    },
+    {
+        "name": "JALAPA",
+        "postal_code": "21001",
+        "province_id": "811",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN PEDRO PINULA",
+        "postal_code": "21002",
+        "province_id": "811",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN LUIS JILOTEPEQUE",
+        "postal_code": "21003",
+        "province_id": "811",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN MANUEL CHAPARRON",
+        "postal_code": "21004",
+        "province_id": "811",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN CARLOS ALZATATE",
+        "postal_code": "21005",
+        "province_id": "811",
+        "country_id": "88"
+    },
+    {
+        "name": "MONJAS",
+        "postal_code": "21006",
+        "province_id": "811",
+        "country_id": "88"
+    },
+    {
+        "name": "MATAQUESCUINTLA",
+        "postal_code": "21007",
+        "province_id": "811",
+        "country_id": "88"
+    },
+    {
+        "name": "LLANO GRANDE",
+        "postal_code": "21008",
+        "province_id": "811",
+        "country_id": "88"
+    },
+    {
+        "name": "CHIQUIMULA",
+        "postal_code": "20001",
+        "province_id": "805",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN JOSE LA ARADA",
+        "postal_code": "20002",
+        "province_id": "805",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN JUAN ERMITA",
+        "postal_code": "20003",
+        "province_id": "805",
+        "country_id": "88"
+    },
+    {
+        "name": "JOCOTAN",
+        "postal_code": "20004",
+        "province_id": "805",
+        "country_id": "88"
+    },
+    {
+        "name": "CAMOTAN",
+        "postal_code": "20005",
+        "province_id": "805",
+        "country_id": "88"
+    },
+    {
+        "name": "OLOPA",
+        "postal_code": "20006",
+        "province_id": "805",
+        "country_id": "88"
+    },
+    {
+        "name": "ESQUIPULAS",
+        "postal_code": "20007",
+        "province_id": "805",
+        "country_id": "88"
+    },
+    {
+        "name": "CONCEPCION LAS MINAS",
+        "postal_code": "20008",
+        "province_id": "805",
+        "country_id": "88"
+    },
+    {
+        "name": "QUEZALTEPEQUE",
+        "postal_code": "20009",
+        "province_id": "805",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN JACINTO",
+        "postal_code": "20010",
+        "province_id": "805",
+        "country_id": "88"
+    },
+    {
+        "name": "IPALA",
+        "postal_code": "20011",
+        "province_id": "805",
+        "country_id": "88"
+    },
+    {
+        "name": "ANGUIATU (CONCEPCION LAS MINAS)",
+        "postal_code": "20012",
+        "province_id": "805",
+        "country_id": "88"
+    },
+    {
+        "name": "EL AMARILLO (JOCOTAN)",
+        "postal_code": "20013",
+        "province_id": "805",
+        "country_id": "88"
+    },
+    {
+        "name": "EL FLORIDO (CAMOTAN)",
+        "postal_code": "20014",
+        "province_id": "805",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTA ELENA (CHIQUIMULA)",
+        "postal_code": "20015",
+        "province_id": "805",
+        "country_id": "88"
+    },
+    {
+        "name": "VADO HONDO (CHIQUIMULA)",
+        "postal_code": "20016",
+        "province_id": "805",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN ESTEBAN (CHIQUIMULA)",
+        "postal_code": "20017",
+        "province_id": "805",
+        "country_id": "88"
+    },
+    {
+        "name": "TIERRA COLORADA (SAN JOSE LA ARADA)",
+        "postal_code": "20018",
+        "province_id": "805",
+        "country_id": "88"
+    },
+    {
+        "name": "AGUA CALIENTE (ESQUIPULAS)",
+        "postal_code": "20019",
+        "province_id": "805",
+        "country_id": "88"
+    },
+    {
+        "name": "NUEVA ANGUIATU (CONCEPCION LAS MINAS)",
+        "postal_code": "20020",
+        "province_id": "805",
+        "country_id": "88"
+    },
+    {
+        "name": "EL PROGRESO",
+        "postal_code": "02000",
+        "province_id": "806",
+        "country_id": "88"
+    },
+    {
+        "name": "GUASTATOYA",
+        "postal_code": "02001",
+        "province_id": "806",
+        "country_id": "88"
+    },
+    {
+        "name": "MORAZAN",
+        "postal_code": "02002",
+        "province_id": "806",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN AGUSTIN ACASAGUASTLAN",
+        "postal_code": "02003",
+        "province_id": "806",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN CRISTOBAL ACASAGUASTLAN",
+        "postal_code": "02004",
+        "province_id": "806",
+        "country_id": "88"
+    },
+    {
+        "name": "EL JICARO",
+        "postal_code": "02005",
+        "province_id": "806",
+        "country_id": "88"
+    },
+    {
+        "name": "SANSARE",
+        "postal_code": "02006",
+        "province_id": "806",
+        "country_id": "88"
+    },
+    {
+        "name": "SANARATE",
+        "postal_code": "02007",
+        "province_id": "806",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN ANTONIO LA PAZ",
+        "postal_code": "02008",
+        "province_id": "806",
+        "country_id": "88"
+    },
+    {
+        "name": "TULUMAJILLO (SAN AGUSTIN ACASAGUASTLAN)",
+        "postal_code": "02009",
+        "province_id": "806",
+        "country_id": "88"
+    },
+    {
+        "name": "ESTACION JALAPA (SANSARE)",
+        "postal_code": "02010",
+        "province_id": "806",
+        "country_id": "88"
+    },
+    {
+        "name": "TULUMAJE (SAN AGUSTIN ACASAGUASTLAN)",
+        "postal_code": "02011",
+        "province_id": "806",
+        "country_id": "88"
+    },
+    {
+        "name": "ESTANCIA DE LA VIRGEN (SAN CRISTOBAL ACASAGUASTLAN)",
+        "postal_code": "02012",
+        "province_id": "806",
+        "country_id": "88"
+    },
+    {
+        "name": "PASO DE LOS JALAPA (EL JICARO)",
+        "postal_code": "02013",
+        "province_id": "806",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTA RITA (GUASTATOYA)",
+        "postal_code": "02014",
+        "province_id": "806",
+        "country_id": "88"
+    },
+    {
+        "name": "EL RANCHO (SAN AGUSTIN ACASAGUASTLAN)",
+        "postal_code": "02015",
+        "province_id": "806",
+        "country_id": "88"
+    },
+    {
+        "name": "ZACAPA",
+        "postal_code": "19001",
+        "province_id": "823",
+        "country_id": "88"
+    },
+    {
+        "name": "ESTANZUELA",
+        "postal_code": "19002",
+        "province_id": "823",
+        "country_id": "88"
+    },
+    {
+        "name": "RIO HONDO",
+        "postal_code": "19003",
+        "province_id": "823",
+        "country_id": "88"
+    },
+    {
+        "name": "GUALAN",
+        "postal_code": "19004",
+        "province_id": "823",
+        "country_id": "88"
+    },
+    {
+        "name": "TECULUTAN",
+        "postal_code": "19005",
+        "province_id": "823",
+        "country_id": "88"
+    },
+    {
+        "name": "USUMATLAN",
+        "postal_code": "19006",
+        "province_id": "823",
+        "country_id": "88"
+    },
+    {
+        "name": "CABAÑAS",
+        "postal_code": "19007",
+        "province_id": "823",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN DIEGO",
+        "postal_code": "19008",
+        "province_id": "823",
+        "country_id": "88"
+    },
+    {
+        "name": "LA UNION",
+        "postal_code": "19009",
+        "province_id": "823",
+        "country_id": "88"
+    },
+    {
+        "name": "HUITE",
+        "postal_code": "19010",
+        "province_id": "823",
+        "country_id": "88"
+    },
+    {
+        "name": "LA REFORMA (HUITE)",
+        "postal_code": "19011",
+        "province_id": "823",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN JOSE (TECULUTAN)",
+        "postal_code": "19012",
+        "province_id": "823",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN JORGE (ZACAPA)",
+        "postal_code": "19013",
+        "province_id": "823",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTA ROSALIA (ZACAPA)",
+        "postal_code": "19014",
+        "province_id": "823",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTA LUCIA (ZACAPA)",
+        "postal_code": "19015",
+        "province_id": "823",
+        "country_id": "88"
+    },
+    {
+        "name": "LA FRAGUA",
+        "postal_code": "19016",
+        "province_id": "823",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN PABLO (ZACAPA)",
+        "postal_code": "19017",
+        "province_id": "823",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN VICENTE (CABAÑAS)",
+        "postal_code": "19018",
+        "province_id": "823",
+        "country_id": "88"
+    },
+    {
+        "name": "PUERTO BARRIOS",
+        "postal_code": "18001",
+        "province_id": "810",
+        "country_id": "88"
+    },
+    {
+        "name": "LIVINGSTON",
+        "postal_code": "18002",
+        "province_id": "810",
+        "country_id": "88"
+    },
+    {
+        "name": "EL ESTOR",
+        "postal_code": "18003",
+        "province_id": "810",
+        "country_id": "88"
+    },
+    {
+        "name": "MORALES",
+        "postal_code": "18004",
+        "province_id": "810",
+        "country_id": "88"
+    },
+    {
+        "name": "LOS AMATES",
+        "postal_code": "18005",
+        "province_id": "810",
+        "country_id": "88"
+    },
+    {
+        "name": "PLAYITAS (MORALES",
+        "postal_code": "18006",
+        "province_id": "810",
+        "country_id": "88"
+    },
+    {
+        "name": "EL RICO (LOS AMANTES)",
+        "postal_code": "18007",
+        "province_id": "810",
+        "country_id": "88"
+    },
+    {
+        "name": "CAYUGA (MORALES)",
+        "postal_code": "18008",
+        "province_id": "810",
+        "country_id": "88"
+    },
+    {
+        "name": "QUIRIGUA (LOS AMATES)",
+        "postal_code": "18009",
+        "province_id": "810",
+        "country_id": "88"
+    },
+    {
+        "name": "EL CINCHAO (PUERTO BARRIOS)",
+        "postal_code": "18010",
+        "province_id": "810",
+        "country_id": "88"
+    },
+    {
+        "name": "LAS QUEBRADAS (MORALES)",
+        "postal_code": "18011",
+        "province_id": "810",
+        "country_id": "88"
+    },
+    {
+        "name": "ENTRE RIOS (PUERTO BARRIOS)",
+        "postal_code": "18012",
+        "province_id": "810",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTO TOMAS DE CASTILLA (PUERTO BARRIOS)",
+        "postal_code": "18013",
+        "province_id": "810",
+        "country_id": "88"
+    },
+    {
+        "name": "EL MITCHAL (MORALES)",
+        "postal_code": "18014",
+        "province_id": "810",
+        "country_id": "88"
+    },
+    {
+        "name": "LAS VIÑAS (MORALES)",
+        "postal_code": "18015",
+        "province_id": "810",
+        "country_id": "88"
+    },
+    {
+        "name": "EL REFUGIO (LOS AMATES)",
+        "postal_code": "18016",
+        "province_id": "810",
+        "country_id": "88"
+    },
+    {
+        "name": "SANTA INES (LOS AMATES)",
+        "postal_code": "18017",
+        "province_id": "810",
+        "country_id": "88"
+    },
+    {
+        "name": "TENEDORES (MORALES)",
+        "postal_code": "18018",
+        "province_id": "810",
+        "country_id": "88"
+    },
+    {
+        "name": "SAN FELIPE (LIVINGSTON)",
+        "postal_code": "18019",
+        "province_id": "810",
+        "country_id": "88"
+    },
+    {
+        "name": "BANANERA (LOS MORALES)",
+        "postal_code": "18020",
+        "province_id": "810",
+        "country_id": "88"
+    },
+    {
+        "name": "FRONTERAS (LIVINGSTON)",
+        "postal_code": "18021",
+        "province_id": "810",
+        "country_id": "88"
+    },
+    {
+        "name": "MARISCOS (LOS AMANTES)",
+        "postal_code": "18022",
+        "province_id": "810",
+        "country_id": "88"
+    },
+    {
+        "name": "BUENOS AIRES (MORALES)",
+        "postal_code": "18023",
+        "province_id": "810",
+        "country_id": "88"
+    }
+]

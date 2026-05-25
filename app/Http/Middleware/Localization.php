@@ -1,8 +1,10 @@
 <?php
 
 namespace App\Http\Middleware;
-use App;
+
 use Closure;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\App;
 
 class Localization
 {
@@ -20,6 +22,11 @@ class Localization
             App::setLocale(session()->get('locale'));
         }
         
+        /* Set new lang with the use of session */
+        if (session()->has('lang')) {
+            App::setLocale(session()->get('lang'));
+        }
+
         return $next($request);
     }
 }

@@ -1,0 +1,439 @@
+[
+    {
+        "id": 1,
+        "parent_id": null,
+        "is_parent": 1,
+        "name": "Materia Prima"
+    },
+    {
+        "id": 2,
+        "parent_id": null,
+        "is_parent": 1,
+        "name": "Empaque"
+    },
+    {
+        "id": 3,
+        "parent_id": null,
+        "is_parent": 1,
+        "name": "Insumos"
+    },
+    {
+        "id": 4,
+        "parent_id": null,
+        "is_parent": 1,
+        "name": "Tecnología"
+    },
+    {
+        "id": 5,
+        "parent_id": null,
+        "is_parent": 1,
+        "name": "Producción"
+    },
+    {
+        "id": 6,
+        "parent_id": null,
+        "is_parent": 1,
+        "name": "Servicios"
+    },
+    {
+        "id": 7,
+        "parent_id": null,
+        "is_parent": 1,
+        "name": "Oficina"
+    },
+    {
+        "id": 8,
+        "parent_id": null,
+        "is_parent": 1,
+        "name": "Seguridad"
+    },
+    {
+        "id": 9,
+        "parent_id": null,
+        "is_parent": 1,
+        "name": "Logística"
+    },
+    {
+        "id": 10,
+        "parent_id": null,
+        "is_parent": 1,
+        "name": "Calidad"
+    },
+    {
+        "id": 11,
+        "parent_id": null,
+        "is_parent": 1,
+        "name": "Uniformes"
+    },
+    {
+        "id": 12,
+        "parent_id": null,
+        "is_parent": 1,
+        "name": "Capacitación"
+    },
+    {
+        "id": 13,
+        "parent_id": null,
+        "is_parent": 1,
+        "name": "Energía"
+    },
+    {
+        "id": 14,
+        "parent_id": null,
+        "is_parent": 1,
+        "name": "Transporte"
+    },
+    {
+        "id": 15,
+        "parent_id": null,
+        "is_parent": 1,
+        "name": "Infraestructura"
+    },
+
+
+
+
+
+
+    {
+        "id": 16,
+        "parent_id": 1,
+        "is_parent": 0,
+        "name": "Café"
+    },
+
+    {
+        "id": 17,
+        "parent_id": 2,
+        "is_parent": 0,
+        "name": "Bolsas"
+    },
+    {
+        "id": 18,
+        "parent_id": 2,
+        "is_parent": 0,
+        "name": "Etiquetas"
+    },
+    {
+        "id": 19,
+        "parent_id": 2,
+        "is_parent": 0,
+        "name": "Cajas"
+    },
+
+
+    {
+        "id": 20,
+        "parent_id": 3,
+        "is_parent": 0,
+        "name": "Químicos"
+    },
+    {
+        "id": 21,
+        "parent_id": 3,
+        "is_parent": 0,
+        "name": "Combustibles"
+    },
+    {
+        "id": 22,
+        "parent_id": 3,
+        "is_parent": 0,
+        "name": "Agua"
+    },
+
+    {
+        "id": 23,
+        "parent_id": 4,
+        "is_parent": 0,
+        "name": "Equipos"
+    },
+    {
+        "id": 24,
+        "parent_id": 4,
+        "is_parent": 0,
+        "name": "Software"
+    },
+
+    {
+        "id": 25,
+        "parent_id": 5,
+        "is_parent": 0,
+        "name": "Maquinaria"
+    },
+    {
+        "id": 26,
+        "parent_id": 5,
+        "is_parent": 0,
+        "name": "Repuestos"
+    },
+    {
+        "id": 27,
+        "parent_id": 5,
+        "is_parent": 0,
+        "name": "Herramientas"
+    },
+
+    {
+        "id": 28,
+        "parent_id": 6,
+        "is_parent": 0,
+        "name": "Transporte"
+    },
+    {
+        "id": 29,
+        "parent_id": 6,
+        "is_parent": 0,
+        "name": "Mantenimiento"
+    },
+    {
+        "id": 30,
+        "parent_id": 6,
+        "is_parent": 0,
+        "name": "Seguridad"
+    },
+    {
+        "id": 31,
+        "parent_id": 6,
+        "is_parent": 0,
+        "name": "Limpieza"
+    },
+    {
+        "id": 32,
+        "parent_id": 6,
+        "is_parent": 0,
+        "name": "Consultoría"
+    },
+    {
+        "id": 33,
+        "parent_id": 6,
+        "is_parent": 0,
+        "name": "Publicidad"
+    },
+    {
+        "id": 34,
+        "parent_id": 6,
+        "is_parent": 0,
+        "name": "Desarrollo web"
+    },
+    {
+        "id": 35,
+        "parent_id": 6,
+        "is_parent": 0,
+        "name": "Desarrollo software"
+    },
+    {
+        "id": 36,
+        "parent_id": 6,
+        "is_parent": 0,
+        "name": "Telecomunicaciones"
+    },
+    {
+        "id": 37,
+        "parent_id": 6,
+        "is_parent": 0,
+        "name": "Recursos Humanos"
+    },
+    {
+        "id": 38,
+        "parent_id": 6,
+        "is_parent": 0,
+        "name": "Legal"
+    },
+
+
+    {
+        "id": 39,
+        "parent_id": 7,
+        "is_parent": 0,
+        "name": "Papelería"
+    },
+    {
+        "id": 40,
+        "parent_id": 7,
+        "is_parent": 0,
+        "name": "Sillas"
+    },
+    {
+        "id": 41,
+        "parent_id": 7,
+        "is_parent": 0,
+        "name": "Escritorios"
+    },
+    {
+        "id": 42,
+        "parent_id": 7,
+        "is_parent": 0,
+        "name": "Misceláneos"
+    },
+    {
+        "id": 43,
+        "parent_id": 7,
+        "is_parent": 0,
+        "name": "Tecnología"
+    },
+    {
+        "id": 44,
+        "parent_id": 7,
+        "is_parent": 0,
+        "name": "Mobiliario"
+    },
+    {
+        "id": 45,
+        "parent_id": 7,
+        "is_parent": 0,
+        "name": "Cafetería"
+    },
+
+    {
+        "id": 46,
+        "parent_id": 8,
+        "is_parent": 0,
+        "name": "EPP"
+    },
+    {
+        "id": 47,
+        "parent_id": 8,
+        "is_parent": 0,
+        "name": "Señalización"
+    },
+    {
+        "id": 48,
+        "parent_id": 8,
+        "is_parent": 0,
+        "name": "Alarmas"
+    },
+    {
+        "id": 49,
+        "parent_id": 8,
+        "is_parent": 0,
+        "name": "Cámaras"
+    },
+    {
+        "id": 50,
+        "parent_id": 8,
+        "is_parent": 0,
+        "name": "Servicios"
+    },
+
+    {
+        "id": 51,
+        "parent_id": 9,
+        "is_parent": 0,
+        "name": "Palets"
+    },
+    {
+        "id": 52,
+        "parent_id": 9,
+        "is_parent": 0,
+        "name": "Flejes"
+    },
+    {
+        "id": 53,
+        "parent_id": 9,
+        "is_parent": 0,
+        "name": "Film"
+    },
+    {
+        "id": 54,
+        "parent_id": 9,
+        "is_parent": 0,
+        "name": "Cintas"
+    },
+
+    {
+        "id": 55,
+        "parent_id": 10,
+        "is_parent": 0,
+        "name": "Laboratorio"
+    },
+    {
+        "id": 56,
+        "parent_id": 10,
+        "is_parent": 0,
+        "name": "Servicios"
+    },
+    {
+        "id": 57,
+        "parent_id": 10,
+        "is_parent": 0,
+        "name": "Instrumentación"
+    },
+
+    {
+        "id": 58,
+        "parent_id": 11,
+        "is_parent": 0,
+        "name": "Ropa de trabajo"
+    },
+    {
+        "id": 59,
+        "parent_id": 11,
+        "is_parent": 0,
+        "name": "Calzado"
+    },
+    {
+        "id": 60,
+        "parent_id": 11,
+        "is_parent": 0,
+        "name": "Accesorios"
+    },
+
+    {
+        "id": 61,
+        "parent_id": 12,
+        "is_parent": 0,
+        "name": "Formación técnica"
+    },
+    {
+        "id": 62,
+        "parent_id": 12,
+        "is_parent": 0,
+        "name": "Bienestar"
+    },
+    {
+        "id": 63,
+        "parent_id": 12,
+        "is_parent": 0,
+        "name": "Seguridad"
+    },
+
+    {
+        "id": 64,
+        "parent_id": 13,
+        "is_parent": 0,
+        "name": "Paneles Solares"
+    },
+    {
+        "id": 65,
+        "parent_id": 13,
+        "is_parent": 0,
+        "name": "Iluminación"
+    },
+
+    {
+        "id": 66,
+        "parent_id": 14,
+        "is_parent": 0,
+        "name": "Vehículos"
+    },
+    {
+        "id": 67,
+        "parent_id": 14,
+        "is_parent": 0,
+        "name": "Mantenimiento"
+    },
+
+    {
+        "id": 68,
+        "parent_id": 15,
+        "is_parent": 0,
+        "name": "Construcción"
+    },
+    {
+        "id": 69,
+        "parent_id": 15,
+        "is_parent": 0,
+        "name": "Servicios"
+    }
+    
+]

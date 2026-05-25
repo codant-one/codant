@@ -1,0 +1,753 @@
+[
+    {
+        "id": 1,
+        "category_id": 16,
+        "material_id": 11,
+        "is_material": 1,
+        "name": "Café verde"
+    },
+    {
+        "id": 2,
+        "category_id": 16,
+        "material_id": 11,
+        "is_material": 1,
+        "name": "Café tostado"
+    },
+    {
+        "id": 3,
+        "category_id": 16,
+        "material_id": 11,
+        "is_material": 1,
+        "name": "Café molido"
+    },
+
+    {
+        "id": 4,
+        "category_id": 17,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Bolsa trilaminada 250g"
+    },
+    {
+        "id": 5,
+        "category_id": 17,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Bolsa kraft 500g"
+    },
+
+    {
+        "id": 6,
+        "category_id": 18,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Etiqueta autoadhesiva 5x10 cm"
+    },
+
+    {
+        "id": 7,
+        "category_id": 19,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Caja corrugada 12 unidades"
+    },
+    {
+        "id": 8,
+        "category_id": 19,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Caja exportación 24 unidades"
+    },
+
+    {
+        "id": 9,
+        "category_id": 20,
+        "material_id": 8,
+        "is_material": 1,
+        "name": "Detergente grado alimenticio"
+    },
+    {
+        "id": 10,
+        "category_id": 20,
+        "material_id": 8,
+        "is_material": 1,
+        "name": "Sanitizante"
+    },
+
+    {
+        "id": 11,
+        "category_id": 21,
+        "material_id": 25,
+        "is_material": 1,
+        "name": "Gas propano"
+    },
+    {
+        "id": 12,
+        "category_id": 21,
+        "material_id": 25,
+        "is_material": 1,
+        "name": "Diésel"
+    },
+
+    {
+        "id": 13,
+        "category_id": 22,
+        "material_id": 8,
+        "is_material": 1,
+        "name": "Agua purificada para proceso"
+    },
+
+    {
+        "id": 14,
+        "category_id": 23,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Laptop"
+    },
+    {
+        "id": 15,
+        "category_id": 23,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Impresora térmica"
+    },
+    {
+        "id": 16,
+        "category_id": 23,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Escáner de códigos de barra"
+    },
+
+    {
+        "id": 17,
+        "category_id": 24,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Licencia de Office"
+    },
+    {
+        "id": 18,
+        "category_id": 24,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Software de trazabilidad"
+    },
+
+    {
+        "id": 19,
+        "category_id": 25,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Tostadora de café"
+    },
+    {
+        "id": 20,
+        "category_id": 25,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Molino de café industrial"
+    },
+    {
+        "id": 21,
+        "category_id": 25,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Selladora de bolsas"
+    },
+    {
+        "id": 22,
+        "category_id": 25,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Despulpadora"
+    },
+    {
+        "id": 23,
+        "category_id": 25,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Seleccionadora de granos"
+    },
+
+    {
+        "id": 24,
+        "category_id": 26,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Filtro de aire para tostadora"
+    },
+    {
+        "id": 25,
+        "category_id": 26,
+        "material_id": 1,
+        "is_material": 1,
+        "name": "Bandas transportadoras"
+    },
+    {
+        "id": 26,
+        "category_id": 26,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Rodamientos industriales"
+    },
+    {
+        "id": 27,
+        "category_id": 26,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Motor eléctrico"
+    },
+
+    {
+        "id": 28,
+        "category_id": 28,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Servicio de transporte local"
+    },
+    {
+        "id": 29,
+        "category_id": 28,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Servicio de transporte internacional"
+    },
+
+    {
+        "id": 30,
+        "category_id": 29,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Mantenimiento de maquinaria"
+    },
+
+    {
+        "id": 31,
+        "category_id": 30,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Servicio Mensual de vigilancia"
+    },
+
+    {
+        "id": 32,
+        "category_id": 31,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Limpieza de planta"
+    },
+
+    {
+        "id": 33,
+        "category_id": 32,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Auditoría de calidad"
+    },
+
+    {
+        "id": 34,
+        "category_id": 39,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Resma de papel"
+    },
+    {
+        "id": 35,
+        "category_id": 39,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Cuadernos"
+    },
+
+    {
+        "id": 36,
+        "category_id": 40,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Silla ergonómica"
+    },
+
+    {
+        "id": 37,
+        "category_id": 41,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Escritorio con gavetas"
+    },
+
+    {
+        "id": 38,
+        "category_id": 42,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Botellones de agua"
+    },
+
+    {
+        "id": 39,
+        "category_id": 46,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Mascarillas N95"
+    },
+    {
+        "id": 40,
+        "category_id": 46,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Guantes de nitrilo"
+    },
+    {
+        "id": 41,
+        "category_id": 46,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Zapatos de seguridad"
+    },
+
+    {
+        "id": 42,
+        "category_id": 47,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Señal de salida de emergencia"
+    },
+
+    {
+        "id": 43,
+        "category_id": 51,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Palet de madera 100x120 cm"
+    },
+
+    {
+        "id": 44,
+        "category_id": 52,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Fleje plástico"
+    },
+
+    {
+        "id": 45,
+        "category_id": 53,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Film stretch"
+    },
+
+    {
+        "id": 46,
+        "category_id": 54,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Cinta adhesiva industrial"
+    },
+
+    {
+        "id": 47,
+        "category_id": 55,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Kit de análisis de humedad"
+    },
+    {
+        "id": 48,
+        "category_id": 55,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Termómetro digital"
+    },
+
+    {
+        "id": 49,
+        "category_id": 56,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Calibración de equipos"
+    },
+
+    {
+        "id": 50,
+        "category_id": 58,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Camisa industrial"
+    },
+    {
+        "id": 51,
+        "category_id": 58,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Pantalón industrial"
+    },
+
+    {
+        "id": 52,
+        "category_id": 59,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Botas para planta"
+    },
+
+    {
+        "id": 53,
+        "category_id": 61,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Curso de buenas prácticas"
+    },
+    {
+        "id": 54,
+        "category_id": 61,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Certificación HACCP"
+    },
+
+    {
+        "id": 55,
+        "category_id": 27,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Llave inglesa"
+    },
+    {
+        "id": 56,
+        "category_id": 27,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Destornillador"
+    },
+    {
+        "id": 57,
+        "category_id": 27,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Taladro eléctrico"
+    },
+
+    {
+        "id": 58,
+        "category_id": 64,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Panel solar fotovoltaico"
+    },
+
+    {
+        "id": 59,
+        "category_id": 65,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Lámpara LED industrial"
+    },
+    {
+        "id": 60,
+        "category_id": 65,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Reflector de alta potencia"
+    },
+
+    {
+        "id": 61,
+        "category_id": 33,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Diseño gráfico"
+    },
+    {
+        "id": 62,
+        "category_id": 33,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Impresión de material promocional"
+    },
+
+    {
+        "id": 63,
+        "category_id": 34,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Creación de página web corporativa"
+    },
+
+    {
+        "id": 64,
+        "category_id": 35,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Desarrollo de app para trazabilidad"
+    },
+
+    {
+        "id": 65,
+        "category_id": 36,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Servicio de internet empresarial"
+    },
+    {
+        "id": 66,
+        "category_id": 36,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Servicio de telefonía IP"
+    },
+
+    {
+        "id": 67,
+        "category_id": 37,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Contratación de personal temporal"
+    },
+    {
+        "id": 68,
+        "category_id": 37,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Servicio de nómina externa"
+    },
+
+    {
+        "id": 69,
+        "category_id": 43,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Router WiFi"
+    },
+    {
+        "id": 70,
+        "category_id": 43,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Proyector digital"
+    },
+
+    {
+        "id": 71,
+        "category_id": 44,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Archivador metálico"
+    },
+    {
+        "id": 72,
+        "category_id": 44,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Estantería"
+    },
+
+    {
+        "id": 73,
+        "category_id": 42,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Cartuchos de tinta"
+    },
+    {
+        "id": 74,
+        "category_id": 42,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Toner para impresora"
+    },
+
+    {
+        "id": 75,
+        "category_id": 45,
+        "material_id": 31,
+        "is_material": 1,
+        "name": "Café para consumo interno"
+    },
+    {
+        "id": 76,
+        "category_id": 45,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Azúcar en sobres"
+    },
+    {
+        "id": 77,
+        "category_id": 45,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Vasos desechables"
+    },
+
+    {
+        "id": 78,
+        "category_id": 48,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Sistema de alarma"
+    },
+
+    {
+        "id": 79,
+        "category_id": 49,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Cámara de videovigilancia"
+    },
+
+    {
+        "id": 80,
+        "category_id": 50,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Mantenimiento de cámaras"
+    },
+
+    {
+        "id": 81,
+        "category_id": 66,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Motocicleta para reparto"
+    },
+    {
+        "id": 82,
+        "category_id": 66,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Camioneta 4x4"
+    },
+
+    {
+        "id": 83,
+        "category_id": 67,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Cambio de aceite"
+    },
+    {
+        "id": 84,
+        "category_id": 67,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Servicio de alineación"
+    },
+
+    {
+        "id": 85,
+        "category_id": 68,
+        "material_id": 32,
+        "is_material": 1,
+        "name": "Cemento Portland"
+    },
+    {
+        "id": 86,
+        "category_id": 68,
+        "material_id": 1,
+        "is_material": 1,
+        "name": "Arena"
+    },
+    {
+        "id": 87,
+        "category_id": 68,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Bloques de concreto"
+    },
+
+    {
+        "id": 88,
+        "category_id": 69,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Remodelación de oficina"
+    },
+    {
+        "id": 89,
+        "category_id": 69,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Instalación eléctrica industrial"
+    },
+
+    {
+        "id": 90,
+        "category_id": 57,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Higrómetro digital"
+    },
+    {
+        "id": 91,
+        "category_id": 57,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Balanza de precisión"
+    },
+
+    {
+        "id": 92,
+        "category_id": 56,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Análisis microbiológico"
+    },
+    {
+        "id": 93,
+        "category_id": 56,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Verificación de normas de empaque"
+    },
+
+    {
+        "id": 94,
+        "category_id": 62,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Taller de manejo del estrés"
+    },
+
+    {
+        "id": 95,
+        "category_id": 63,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Capacitación en manejo de químicos"
+    },
+
+    {
+        "id": 96,
+        "category_id": 60,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Gorras con logo"
+    },
+    {
+        "id": 97,
+        "category_id": 60,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Chalecos reflectivos"
+    },
+
+    {
+        "id": 98,
+        "category_id": 38,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Asesoría en exportaciones"
+    },
+    {
+        "id": 99,
+        "category_id": 38,
+        "material_id": null,
+        "is_material": 0,
+        "name": "Redacción de contratos"
+    }
+
+
+
+]
